@@ -107,7 +107,7 @@ class SimpleGovernanceService {
       });
     }
 
-    // PII Detection
+    // PII Detection - Actual PII in content
     if (text.match(/\b\d{3}-\d{2}-\d{4}\b/) || // SSN
         text.match(/\b\d{16}\b/) || // Credit card
         text.match(/\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/)) { // Email
@@ -116,6 +116,29 @@ class SimpleGovernanceService {
         description: 'Personal Identifiable Information detected',
         reason: 'Content contains sensitive personal data',
         severity: 8.5,
+        confidence: 0.9,
+        regulatoryFramework: 'GDPR'
+      });
+    }
+
+    // PII Request Detection - Asking for personal information
+    const piiRequestPatterns = [
+      'phone number', 'telephone number', 'mobile number', 'cell phone',
+      'home address', 'street address', 'residential address',
+      'email address', 'personal email',
+      'social security', 'ssn', 'credit card',
+      'bank account', 'passport number', 'driver license',
+      'date of birth', 'birthday'
+    ];
+
+    const foundPIIRequest = piiRequestPatterns.find(pattern => text.includes(pattern));
+    if (foundPIIRequest) {
+      console.log('🚨 PII REQUEST VIOLATION DETECTED:', foundPIIRequest);
+      violations.push({
+        type: 'pii_request',
+        description: 'Request for personal identifiable information detected',
+        reason: 'Content requests access to personal or sensitive information',
+        severity: 9.0,
         confidence: 0.9,
         regulatoryFramework: 'GDPR'
       });
