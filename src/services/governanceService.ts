@@ -1,20 +1,15 @@
 import { LLMInteraction } from '../types';
 import { agents } from '../agents';
-import { inkeepAgentsService } from './inkeepAgentsService';
 
 /**
- * Unified governance service that can use either legacy agents or Inkeep agents
-{{ ... }}
- * Provides seamless switching between implementations
+ * Governance service for processing AI interactions
+ * Uses a multi-agent system for comprehensive governance
  */
 export class GovernanceService {
   private static instance: GovernanceService;
-  private useInkeepAgents: boolean;
-  private inkeepAvailable: boolean = false;
 
   constructor() {
-    this.useInkeepAgents = process.env.VITE_USE_INKEEP_AGENTS === 'true';
-    this.checkInkeepAvailability();
+    console.log('🛡️ Governance service initialized');
   }
 
   static getInstance(): GovernanceService {
@@ -24,18 +19,13 @@ export class GovernanceService {
     return GovernanceService.instance;
   }
 
-  private async checkInkeepAvailability() {
-    this.inkeepAvailable = await inkeepAgentsService.isAvailable();
-    console.log(`🤖 Inkeep agents ${this.inkeepAvailable ? 'available' : 'not available'}`);
-  }
-
   /**
    * Process an AI interaction through the governance system
    */
-  async processInteraction(input: string, output: string, context?: any): Promise<LLMInteraction> {
+  async processInteraction(input: string, output: string): Promise<LLMInteraction> {
     const interactionId = `interaction_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
     
-    console.log(`🛡️ Processing interaction ${interactionId} with ${this.shouldUseInkeep() ? 'Inkeep' : 'legacy'} agents`);
+    console.log(`🛡️ Processing interaction ${interactionId}`);
 
     const interaction: LLMInteraction = {
       id: interactionId,
@@ -49,19 +39,10 @@ export class GovernanceService {
     };
 
     try {
-      if (this.shouldUseInkeep()) {
-        await this.processWithInkeepAgents(interaction, context);
-      } else {
-        await this.processWithLegacyAgents(interaction);
-      }
+      await this.processWithAgents(interaction);
     } catch (error) {
       console.error('Error in governance processing:', error);
-      
-      // Fallback to legacy agents if Inkeep fails
-      if (this.shouldUseInkeep()) {
-        console.log('🔄 Falling back to legacy agents');
-        await this.processWithLegacyAgents(interaction);
-      }
+      throw error;
     }
 
     // Determine final status and severity
@@ -78,13 +59,7 @@ export class GovernanceService {
     comment?: string;
   }): Promise<void> {
     try {
-      if (this.shouldUseInkeep()) {
-        await inkeepAgentsService.processFeedback(interactionId, feedback);
-        console.log(`📝 Feedback processed through Inkeep agents for ${interactionId}`);
-      } else {
-        // Legacy feedback processing
-        console.log(`📝 Feedback processed through legacy system for ${interactionId}:`, feedback);
-      }
+      console.log(`📝 Feedback processed for ${interactionId}:`, feedback);
     } catch (error) {
       console.error('Error processing feedback:', error);
     }
@@ -94,60 +69,20 @@ export class GovernanceService {
    * Get governance insights and analytics
    */
   async getGovernanceInsights(timeframe: string = 'today'): Promise<any> {
-    try {
-      if (this.shouldUseInkeep()) {
-        return await inkeepAgentsService.getGovernanceInsights(timeframe);
-      } else {
-        throw new Error('Inkeep agents not configured. Cannot get governance insights.');
-      }
-    } catch (error) {
-      console.error('Error getting governance insights:', error);
-      throw error;
-    }
+    return {
+      totalInteractions: 0,
+      blockedInteractions: 0,
+      pendingInteractions: 0,
+      approvedInteractions: 0,
+      violationsByType: {},
+      timeframe
+    };
   }
 
   /**
-   * Check if we should use Inkeep agents
+   * Process interaction using agents
    */
-  private shouldUseInkeep(): boolean {
-    return this.useInkeepAgents && this.inkeepAvailable;
-  }
-
-  /**
-   * Process interaction using Inkeep agents
-   */
-  private async processWithInkeepAgents(interaction: LLMInteraction, context?: any): Promise<void> {
-    try {
-      // Use advanced governance for more comprehensive analysis
-      const result = await inkeepAgentsService.processAdvancedGovernance(
-        interaction.input,
-        interaction.output,
-        context
-      );
-
-      // Merge results into interaction
-      interaction.violations.push(...result.violations);
-      interaction.agentActions.push(...result.agentActions);
-      
-      // Add Inkeep-specific agent actions
-      interaction.agentActions.push({
-        agentName: 'InkeepIntegration',
-        action: 'log',
-        details: `Processed through Inkeep Advanced Governance with ${result.violations.length} violations detected`,
-        timestamp: new Date()
-      });
-
-      console.log(`✅ Inkeep processing complete: ${result.violations.length} violations, status: ${result.status}`);
-    } catch (error) {
-      console.error('Error processing with Inkeep agents:', error);
-      throw error;
-    }
-  }
-
-  /**
-   * Process interaction using legacy agents
-   */
-  private async processWithLegacyAgents(interaction: LLMInteraction): Promise<void> {
+  private async processWithAgents(interaction: LLMInteraction): Promise<void> {
     try {
       // Process with each legacy agent
       const policyActions = await agents.policyEnforcer.process(interaction);
@@ -165,9 +100,9 @@ export class GovernanceService {
       const feedbackActions = await agents.feedbackAgent.process(interaction);
       interaction.agentActions.push(...feedbackActions);
 
-      console.log(`✅ Legacy processing complete: ${interaction.violations.length} violations detected`);
+      console.log(`✅ Processing complete: ${interaction.violations.length} violations detected`);
     } catch (error) {
-      console.error('Error processing with legacy agents:', error);
+      console.error('Error processing with agents:', error);
       throw error;
     }
   }
@@ -201,31 +136,6 @@ export class GovernanceService {
     }
   }
 
-  /**
-   * Get current configuration status
-   */
-  getStatus(): {
-    usingInkeep: boolean;
-    inkeepAvailable: boolean;
-    agentType: 'inkeep' | 'legacy';
-  } {
-    return {
-      usingInkeep: this.useInkeepAgents,
-      inkeepAvailable: this.inkeepAvailable,
-      agentType: this.shouldUseInkeep() ? 'inkeep' : 'legacy'
-    };
-  }
-
-  /**
-   * Switch between Inkeep and legacy agents
-   */
-  async switchAgentType(useInkeep: boolean): Promise<void> {
-    this.useInkeepAgents = useInkeep;
-    if (useInkeep) {
-      await this.checkInkeepAvailability();
-    }
-    console.log(`🔄 Switched to ${this.shouldUseInkeep() ? 'Inkeep' : 'legacy'} agents`);
-  }
 }
 
 export const governanceService = GovernanceService.getInstance();

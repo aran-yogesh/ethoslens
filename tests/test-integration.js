@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 /**
- * Integration test script for EthosLens + Inkeep Agents
- * Tests both legacy and Inkeep agent functionality
+ * Integration test script for EthosLens Governance System
+ * Tests the governance agents and violation detection
  */
 
 import fetch from 'node-fetch';
@@ -13,7 +13,6 @@ config();
 
 const PORT = process.env.PORT || '3000';
 const BASE_URL = `http://localhost:${PORT}`;
-const INKEEP_URL = 'http://localhost:3003';
 
 // Test prompts with different risk levels
 const testPrompts = [
@@ -45,23 +44,7 @@ async function checkServices() {
   try {
     // Check main backend
     const backendResponse = await fetch(`${BASE_URL}/health`);
-    console.log(`✅ Main backend: ${backendResponse.ok ? 'Running' : 'Error'}`);
-    
-    // Check Inkeep agents
-    try {
-      const inkeepResponse = await fetch(`${INKEEP_URL}/health`);
-      console.log(`✅ Inkeep agents: ${inkeepResponse.ok ? 'Running' : 'Error'}`);
-    } catch (error) {
-      console.log('❌ Inkeep agents: Not available');
-    }
-    
-    // Check governance status
-    const govResponse = await fetch(`${BASE_URL}/api/governance/status`);
-    if (govResponse.ok) {
-      const govData = await govResponse.json();
-      console.log(`🛡️  Current agent type: ${govData.governance.agentType}`);
-      console.log(`🔗 Inkeep available: ${govData.governance.inkeepAvailable}`);
-    }
+    console.log(`✅ Backend: ${backendResponse.ok ? 'Running' : 'Error'}`);
     
     console.log('');
   } catch (error) {
@@ -70,25 +53,8 @@ async function checkServices() {
   }
 }
 
-async function testGovernance(agentType) {
-  console.log(`🧪 Testing ${agentType} agents...\n`);
-  
-  // Switch to the specified agent type
-  try {
-    const switchResponse = await fetch(`${BASE_URL}/api/governance/switch`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ useInkeep: agentType === 'inkeep' })
-    });
-    
-    if (switchResponse.ok) {
-      const switchData = await switchResponse.json();
-      console.log(`✅ Switched to ${switchData.governance.agentType} agents`);
-    }
-  } catch (error) {
-    console.log(`❌ Failed to switch to ${agentType} agents:`, error.message);
-    return;
-  }
+async function testGovernance() {
+  console.log(`🧪 Testing governance agents...\n`);
   
   // Test each prompt
   for (const testCase of testPrompts) {
@@ -165,30 +131,15 @@ async function testInsights() {
 }
 
 async function runTests() {
-  console.log('🚀 EthosLens + Inkeep Agents Integration Test\n');
+  console.log('🚀 EthosLens Governance Integration Test\n');
   console.log('='.repeat(60) + '\n');
   
   await checkServices();
-  
-  // Test legacy agents
-  await testGovernance('legacy');
-  
-  // Test Inkeep agents (if available)
-  try {
-    const inkeepCheck = await fetch(`${INKEEP_URL}/health`);
-    if (inkeepCheck.ok) {
-      await testGovernance('inkeep');
-    } else {
-      console.log('⏭️  Skipping Inkeep agents tests (not available)\n');
-    }
-  } catch (error) {
-    console.log('⏭️  Skipping Inkeep agents tests (not available)\n');
-  }
-  
+  await testGovernance();
   await testInsights();
   
   console.log('✅ Integration tests completed!\n');
-  console.log('💡 To view results in the UI, visit: http://localhost:5174');
+  console.log('💡 To view results in the UI, visit: http://localhost:5173');
   console.log('📊 Check the Live Monitor for real-time governance decisions');
 }
 

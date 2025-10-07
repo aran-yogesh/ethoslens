@@ -15,8 +15,6 @@ export const API_CONFIG = {
     HEALTH: '/health',
     COPILOTKIT: '/api/copilotkit',
     INTERACTIONS: '/api/interactions',
-    GOVERNANCE_STATUS: '/api/governance/status',
-    GOVERNANCE_SWITCH: '/api/governance/switch',
     GOVERNANCE_INSIGHTS: '/api/governance/insights',
   }
 };
@@ -31,7 +29,5 @@ export const API_URLS = {
   health: getApiUrl(API_CONFIG.ENDPOINTS.HEALTH),
   copilotkit: getApiUrl(API_CONFIG.ENDPOINTS.COPILOTKIT),
   interactions: getApiUrl(API_CONFIG.ENDPOINTS.INTERACTIONS),
-  governanceStatus: getApiUrl(API_CONFIG.ENDPOINTS.GOVERNANCE_STATUS),
-  governanceSwitch: getApiUrl(API_CONFIG.ENDPOINTS.GOVERNANCE_SWITCH),
   governanceInsights: getApiUrl(API_CONFIG.ENDPOINTS.GOVERNANCE_INSIGHTS),
 };

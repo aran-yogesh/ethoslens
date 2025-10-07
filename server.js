@@ -490,44 +490,7 @@ app.get('/api/interactions', async (req, res) => {
   }
 });
 
-// Governance configuration endpoints
-app.get('/api/governance/status', async (req, res) => {
-  try {
-    const status = governanceService.getStatus();
-    res.json({
-      success: true,
-      governance: status,
-      timestamp: new Date().toISOString()
-    });
-  } catch (error) {
-    console.error('Error getting governance status:', error);
-    res.status(500).json({ error: 'Failed to get governance status' });
-  }
-});
-
-app.post('/api/governance/switch', async (req, res) => {
-  try {
-    const { useInkeep } = req.body;
-    
-    if (typeof useInkeep !== 'boolean') {
-      return res.status(400).json({ error: 'useInkeep must be a boolean' });
-    }
-
-    await governanceService.switchAgentType(useInkeep);
-    const status = governanceService.getStatus();
-    
-    res.json({
-      success: true,
-      message: `Switched to ${status.agentType} agents`,
-      governance: status,
-      timestamp: new Date().toISOString()
-    });
-  } catch (error) {
-    console.error('Error switching governance type:', error);
-    res.status(500).json({ error: 'Failed to switch governance type' });
-  }
-});
-
+// Governance insights endpoint
 app.get('/api/governance/insights', async (req, res) => {
   try {
     const { timeframe = 'today' } = req.query;

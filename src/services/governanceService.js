@@ -13,7 +13,7 @@
  */
 class SimpleGovernanceService {
   constructor() {
-    this.useInkeepAgents = process.env.VITE_USE_INKEEP_AGENTS === 'true';
+    console.log('🛡️ Simple governance service initialized');
   }
 
   /**
@@ -201,24 +201,6 @@ class SimpleGovernanceService {
     }
   }
 
-  /**
-   * Get current configuration status
-   */
-  getStatus() {
-    return {
-      usingInkeep: this.useInkeepAgents,
-      inkeepAvailable: false,
-      agentType: 'legacy'
-    };
-  }
-
-  /**
-   * Switch between agent types
-   */
-  async switchAgentType(useInkeep) {
-    this.useInkeepAgents = useInkeep;
-    console.log(`🔄 Switched to ${useInkeep ? 'Inkeep' : 'legacy'} agents`);
-  }
 
   /**
    * Get governance insights
