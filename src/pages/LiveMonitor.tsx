@@ -234,10 +234,6 @@ const LiveMonitor: React.FC = () => {
             <RefreshCw className="h-4 w-4" />
             <span>Refresh</span>
           </button>
-          <div className="flex items-center space-x-2">
-            <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-            <span className="text-sm text-gray-600">Manual refresh only</span>
-          </div>
         </div>
       </div>
       
