@@ -1,9 +1,15 @@
-// JavaScript wrapper for TypeScript governanceService
-// This file provides a bridge between the Node.js server and the TypeScript governance service
-
 /**
- * Simple governance service for Node.js backend
- * This is a lightweight version that doesn't require TypeScript compilation
+ * JavaScript Governance Service for Node.js Backend
+ * 
+ * This file provides a bridge between the Node.js server (server.js) and the governance logic.
+ * It's a lightweight JavaScript version that doesn't require TypeScript compilation.
+ * 
+ * NOTE: There is also a TypeScript version (governanceService.ts) that includes full agent
+ * integration (PolicyEnforcer, Verifier with Perplexity, etc.) used by the frontend.
+ * This JS version is simplified for the backend server to avoid TypeScript import issues.
+ * 
+ * @see governanceService.ts - Full TypeScript implementation with all agents
+ * @see server.js - Uses this file for backend governance
  */
 class SimpleGovernanceService {
   constructor() {
