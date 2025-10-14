@@ -106,14 +106,16 @@ Please provide a comprehensive governance analysis including:
     riskAssessment?: any;
   }> {
     try {
-      const response = await fetch(`${this.baseUrl}/conversations`, {
+      const response = await fetch(`${this.baseUrl}/v1/chat/completions`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          graphId: 'governance-graph-advanced',
-          message: `Please perform advanced governance analysis on this AI interaction:
+          model: 'default/ethoslens/governance-graph-basic',
+          messages: [{
+            role: 'user',
+            content: `Please perform advanced governance analysis on this AI interaction:
 
 Input: "${input}"
 Output: "${output}"
@@ -125,6 +127,7 @@ Please provide:
 3. Risk assessment and impact analysis
 4. Safe alternative responses if violations found
 5. Detailed audit trail information`
+          }]
         })
       });
 
