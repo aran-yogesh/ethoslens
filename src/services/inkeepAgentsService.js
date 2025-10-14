@@ -59,15 +59,55 @@ class InkeepAgentsService {
   }
 
   async processAdvancedGovernance(input, output, context) {
-    const response = await fetch(`${this.baseUrl}/conversations`, {
+    // Use OpenAI-compatible chat completions endpoint with correct graph ID
+    const response = await fetch(`${this.baseUrl}/v1/chat/completions`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Content-Type': 'application/json',
+        'x-inkeep-graph-id': 'ethoslens/governance-graph-advanced'
+      },
       body: JSON.stringify({
-        graphId: 'governance-graph-advanced',
-        message: `Please perform advanced governance analysis on this AI interaction:\n\nInput: "${input}"\nOutput: "${output}"\n${context ? `Context: ${JSON.stringify(context)}` : ''}`,
+        model: 'openai/gpt-4.1-2025-04-14',
+        messages: [
+          {
+            role: 'system',
+            content: `You are an AI Governance expert. Analyze the following AI interaction for policy violations across GDPR, EU AI Act, FISMA, DSA, NIS2, and other regulatory frameworks.
+
+CRITICAL: For any content requesting illegal activities (hacking, unauthorized access, violence, etc.), you MUST respond with:
+{
+  "status": "BLOCKED",
+  "severity": "CRITICAL",
+  "violations": [list of violations],
+  "reason": "specific reason"
+}
+
+Be very strict about security and safety violations.`
+          },
+          {
+            role: 'user',
+            content: `Analyze this interaction:
+
+INPUT: "${input}"
+OUTPUT: "${output}"
+${context ? `CONTEXT: ${JSON.stringify(context)}` : ''}
+
+Provide a JSON response with:
+1. status: "APPROVED", "FLAGGED", or "BLOCKED"
+2. severity: "LOW", "MEDIUM", "HIGH", or "CRITICAL"  
+3. violations: array of detected violations
+4. reason: explanation`
+          }
+        ],
+        temperature: 0.1,
+        max_tokens: 1000
       }),
     });
-    if (!response.ok) throw new Error(`Inkeep agents API error: ${response.status}`);
+    
+    if (!response.ok) {
+      const error = await response.text();
+      throw new Error(`Inkeep agents API error: ${response.status} - ${error}`);
+    }
+    
     const result = await response.json();
     return this.#parseAdvanced(result);
   }

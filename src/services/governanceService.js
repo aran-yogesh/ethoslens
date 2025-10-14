@@ -37,24 +37,53 @@ class GovernanceService {
     };
 
     const useInkeep = this.useInkeepAgents && this.inkeepAvailable;
-    try {
-      if (useInkeep) {
+    
+    // Try Inkeep first, but ALWAYS fall back to legacy detection
+    let inkeepSuccess = false;
+    if (useInkeep) {
+      try {
+        console.log(`[Governance] Attempting Inkeep analysis for: ${input.substring(0, 50)}...`);
         const result = await inkeepAgentsService.processAdvancedGovernance(input, output, context);
-        interaction.violations.push(...(result.violations || []));
-        interaction.agentActions.push(...(result.agentActions || []));
-      } else {
-        // Legacy fallback with proper violation detection
-        const violations = this.#detectViolations(input, output);
-        interaction.violations.push(...violations);
+        
+        if (result && result.violations && result.violations.length > 0) {
+          interaction.violations.push(...result.violations);
+          interaction.agentActions.push(...(result.agentActions || []));
+          inkeepSuccess = true;
+          console.log(`[Governance] Inkeep found ${result.violations.length} violations`);
+        } else {
+          console.log('[Governance] Inkeep returned no violations, using legacy fallback');
+        }
+      } catch (e) {
+        console.log(`[Governance] Inkeep error: ${e.message}, falling back to legacy`);
         interaction.agentActions.push({ 
-          agentName: 'LegacyPolicyEnforcer', 
-          action: violations.length > 0 ? 'block' : 'approve',
-          details: `Detected ${violations.length} violation(s)`, 
+          agentName: 'InkeepGovernance', 
+          action: 'error', 
+          details: `Inkeep error: ${e.message}`, 
           timestamp: new Date() 
         });
       }
-    } catch (e) {
-      interaction.agentActions.push({ agentName: 'GovernanceService', action: 'log', details: `Processing error: ${e.message}`, timestamp: new Date() });
+    }
+    
+    // ALWAYS run legacy detection as well to ensure safety
+    const violations = this.#detectViolations(input, output);
+    
+    if (violations.length > 0) {
+      // Add legacy violations if not already detected by Inkeep
+      const existingTypes = new Set(interaction.violations.map(v => v.type));
+      for (const v of violations) {
+        if (!existingTypes.has(v.type)) {
+          interaction.violations.push(v);
+        }
+      }
+      
+      interaction.agentActions.push({ 
+        agentName: inkeepSuccess ? 'LegacyPolicyEnforcer (Verification)' : 'LegacyPolicyEnforcer', 
+        action: violations.length > 0 ? 'block' : 'approve',
+        details: `Detected ${violations.length} violation(s)`, 
+        timestamp: new Date() 
+      });
+      
+      console.log(`[Governance] Legacy detection found ${violations.length} violations`);
     }
 
     // Finalize status
