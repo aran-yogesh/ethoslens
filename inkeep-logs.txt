@@ -7,30 +7,23 @@ turbo 2.5.8
 • Packages in scope: manage-api-quickstart, manage-ui-quickstart, run-api-quickstart
 • Running dev in 3 packages
 • Remote caching disabled
-manage-ui-quickstart:dev: cache bypass, force executing 9454d94dabc2df56
-run-api-quickstart:dev: cache bypass, force executing 8fd91e1f46a23a54
 manage-api-quickstart:dev: cache bypass, force executing 1ddb5a5d84a5005c
-manage-ui-quickstart:dev: 
-manage-ui-quickstart:dev: > manage-ui-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/manage-ui
-manage-ui-quickstart:dev: > next dev
-manage-ui-quickstart:dev: 
-run-api-quickstart:dev: 
-run-api-quickstart:dev: > run-api-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/run-api
-run-api-quickstart:dev: > vite
-run-api-quickstart:dev: 
+run-api-quickstart:dev: cache bypass, force executing 8fd91e1f46a23a54
+manage-ui-quickstart:dev: cache bypass, force executing eff755b86a992c2c
 manage-api-quickstart:dev: 
 manage-api-quickstart:dev: > manage-api-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/manage-api
 manage-api-quickstart:dev: > vite
 manage-api-quickstart:dev: 
-manage-ui-quickstart:dev:  ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
-manage-ui-quickstart:dev:  We detected multiple lockfiles and selected the directory of /Users/alhinai/Desktop/InKeep/AgenticFour/package-lock.json as the root directory.
-manage-ui-quickstart:dev:  To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
-manage-ui-quickstart:dev:    See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
-manage-ui-quickstart:dev:  Detected additional lockfiles: 
-manage-ui-quickstart:dev:    * /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/pnpm-lock.yaml
+run-api-quickstart:dev: 
+run-api-quickstart:dev: > run-api-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/run-api
+run-api-quickstart:dev: > vite
+run-api-quickstart:dev: 
+manage-ui-quickstart:dev: 
+manage-ui-quickstart:dev: > manage-ui-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/manage-ui
+manage-ui-quickstart:dev: > next dev -p 3001
 manage-ui-quickstart:dev: 
 run-api-quickstart:dev: 
-run-api-quickstart:dev:   VITE v7.1.8  ready in 210 ms
+run-api-quickstart:dev:   VITE v7.1.8  ready in 126 ms
 run-api-quickstart:dev: 
 run-api-quickstart:dev:   ➜  Local:   http://localhost:3003/
 run-api-quickstart:dev:   ➜  Network: use --host to expose
@@ -39,7 +32,7 @@ run-api-quickstart:dev:   [32m➜[0m  [1mManagement API:[0m [36mhttp://loca
 run-api-quickstart:dev:   [32m➜[0m  [1mOpenAPI documentation:[0m [36mhttp://localhost:3003/openapi.json[0m
 run-api-quickstart:dev: 
 manage-api-quickstart:dev: 
-manage-api-quickstart:dev:   VITE v7.1.8  ready in 209 ms
+manage-api-quickstart:dev:   VITE v7.1.8  ready in 131 ms
 manage-api-quickstart:dev: 
 manage-api-quickstart:dev:   ➜  Local:   http://localhost:3002/
 manage-api-quickstart:dev:   ➜  Network: use --host to expose
@@ -47,350 +40,2017 @@ manage-api-quickstart:dev:
 manage-api-quickstart:dev:   [32m➜[0m  [1mManagement API:[0m [36mhttp://localhost:3002[0m
 manage-api-quickstart:dev:   [32m➜[0m  [1mOpenAPI documentation:[0m [36mhttp://localhost:3002/openapi.json[0m
 manage-api-quickstart:dev: 
+manage-ui-quickstart:dev:  ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+manage-ui-quickstart:dev:  We detected multiple lockfiles and selected the directory of /Users/alhinai/Desktop/InKeep/AgenticFour/package-lock.json as the root directory.
+manage-ui-quickstart:dev:  To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+manage-ui-quickstart:dev:    See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+manage-ui-quickstart:dev:  Detected additional lockfiles: 
+manage-ui-quickstart:dev:    * /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/pnpm-lock.yaml
+manage-ui-quickstart:dev: 
 manage-ui-quickstart:dev:    ▲ Next.js 15.5.4
-manage-ui-quickstart:dev:    - Local:        http://localhost:3000
-manage-ui-quickstart:dev:    - Network:      http://192.0.0.2:3000
+manage-ui-quickstart:dev:    - Local:        http://localhost:3001
+manage-ui-quickstart:dev:    - Network:      http://192.0.0.2:3001
 manage-ui-quickstart:dev: 
 manage-ui-quickstart:dev:  ✓ Starting...
-manage-ui-quickstart:dev:  ✓ Ready in 1255ms
-manage-ui-quickstart:dev:  ✓ Compiled /_not-found in 356ms (562 modules)
-manage-ui-quickstart:dev:  GET /health 404 in 531ms
-manage-ui-quickstart:dev:  GET /health 404 in 24ms
-manage-ui-quickstart:dev:  GET /health 404 in 21ms
-run-api-quickstart:dev: [04:04:25] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+manage-ui-quickstart:dev:  ✓ Ready in 1333ms
+run-api-quickstart:dev: [04:46:55] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
 run-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
 run-api-quickstart:dev:     [35mstoreType[39m: "memory"
-run-api-quickstart:dev: [04:04:25] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+run-api-quickstart:dev: [04:46:55] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
 run-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
 run-api-quickstart:dev:     [35mstoreType[39m: "memory"
-run-api-quickstart:dev: [04:04:25] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
+run-api-quickstart:dev: [04:46:55] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
 run-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
 run-api-quickstart:dev:     [35mstoreType[39m: "keychain"
-run-api-quickstart:dev: [04:04:25] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
+run-api-quickstart:dev: [04:46:55] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
 run-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
 run-api-quickstart:dev:     [35mservice[39m: "inkeep-agent-framework-keychain-default"
-manage-ui-quickstart:dev:  GET /health 404 in 150ms
-manage-ui-quickstart:dev:  GET /health 404 in 22ms
-manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (agents-manage-api): [36mLogger initialized[39m
+manage-api-quickstart:dev: [04:47:06] [32mINFO[39m (agents-manage-api): [36mLogger initialized[39m
 manage-api-quickstart:dev:     [35mlogger[39m: []
-manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+manage-api-quickstart:dev: [04:47:06] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
 manage-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
 manage-api-quickstart:dev:     [35mstoreType[39m: "memory"
-manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+manage-api-quickstart:dev: [04:47:06] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
 manage-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
 manage-api-quickstart:dev:     [35mstoreType[39m: "memory"
-manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev: [04:47:06] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "url": "/tenants/default/projects",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
-manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
 manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
 manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "origin": "http://localhost:5173",
-manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
-manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
-manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
-manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
-manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
 manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
-manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
-manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:         "user-agent": "node"
 manage-api-quickstart:dev:       }
 manage-api-quickstart:dev:     }
 manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "a3050113-b71c-409a-944b-83217c1889b0"
-manage-api-quickstart:dev:     [35mresponseTime[39m: 0
-manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
+manage-api-quickstart:dev:     [35mreqId[39m: "70f43440-8391-4c09-afa3-4de101327a4e"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 4
+manage-api-quickstart:dev: [04:47:06] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
 manage-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
 manage-api-quickstart:dev:     [35mstoreType[39m: "keychain"
-manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
+manage-api-quickstart:dev: [04:47:06] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/health/projects",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "db2867b2-fb74-43da-a85d-d3746da1f3db"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 4
+manage-api-quickstart:dev: [04:47:07] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
 manage-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
 manage-api-quickstart:dev:     [35mservice[39m: "inkeep-agent-framework-keychain-default"
-manage-api-quickstart:dev: [04:06:22] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev: [04:47:09] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
-manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
 manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
 manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "origin": "http://localhost:5173",
-manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
-manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
-manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
-manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
-manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
 manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
-manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
-manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:         "user-agent": "node"
 manage-api-quickstart:dev:       }
 manage-api-quickstart:dev:     }
 manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "d0173113-7938-4822-aa13-fb61e21dcf89"
+manage-api-quickstart:dev:     [35mreqId[39m: "85c5e200-8d02-41a1-b441-ea33a40f1e23"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 4
+manage-api-quickstart:dev: [04:47:09] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "dca611ee-70a2-4796-8bed-6dd2000d960a"
 manage-api-quickstart:dev:     [35mresponseTime[39m: 1
-manage-api-quickstart:dev: [04:06:22] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev: [04:47:10] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
-manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
 manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
 manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "origin": "http://localhost:5173",
-manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
-manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
-manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
-manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
-manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
 manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
-manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
-manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:         "user-agent": "node"
 manage-api-quickstart:dev:       }
 manage-api-quickstart:dev:     }
 manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "98889ae6-554d-4328-84fc-2fc68030988c"
-manage-api-quickstart:dev:     [35mresponseTime[39m: 0
-manage-ui-quickstart:dev:  GET /health 404 in 59ms
-manage-ui-quickstart:dev:  GET /health 404 in 34ms
-manage-ui-quickstart:dev:  GET /health 404 in 38ms
-manage-api-quickstart:dev: [04:09:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
-manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/health",
-manage-api-quickstart:dev:       "method": "GET",
-manage-api-quickstart:dev:       "headers": {
-manage-api-quickstart:dev:         "accept": "*/*",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
-manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
-manage-api-quickstart:dev:         "connection": "keep-alive",
-manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "origin": "http://localhost:5173",
-manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
-manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
-manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
-manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
-manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
-manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
-manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
-manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
-manage-api-quickstart:dev:       }
-manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 204,
-manage-api-quickstart:dev:       "headers": {}
-manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "d00a1231-d1dd-4c29-8921-1e986f5d9960"
-manage-api-quickstart:dev:     [35mresponseTime[39m: 0
-manage-api-quickstart:dev: [04:09:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
-manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/health",
-manage-api-quickstart:dev:       "method": "GET",
-manage-api-quickstart:dev:       "headers": {
-manage-api-quickstart:dev:         "accept": "*/*",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
-manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
-manage-api-quickstart:dev:         "connection": "keep-alive",
-manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "origin": "http://localhost:5173",
-manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
-manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
-manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
-manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
-manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
-manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
-manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
-manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
-manage-api-quickstart:dev:       }
-manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 204,
-manage-api-quickstart:dev:       "headers": {}
-manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "50c67f7c-678e-4d5b-9e79-3a326c6371d7"
-manage-api-quickstart:dev:     [35mresponseTime[39m: 0
-manage-api-quickstart:dev: [04:09:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
-manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/",
-manage-api-quickstart:dev:       "method": "GET",
-manage-api-quickstart:dev:       "headers": {
-manage-api-quickstart:dev:         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
-manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
-manage-api-quickstart:dev:         "connection": "keep-alive",
-manage-api-quickstart:dev:         "cookie": "__clerk_keys_1f8b91c4b8eb5c6b=%7B%22claimUrl%22%3A%22https%3A%2F%2Fdashboard.clerk.com%2Fapps%2Fclaim%3Ftoken%3Dxtgg3rl2nkf2w9vi5088o9s5v5endgvmyj00mwh9%22%2C%22publishableKey%22%3A%22pk_test_bWVhc3VyZWQtb3JjYS0yMi5jbGVyay5hY2NvdW50cy5kZXYk%22%2C%22secretKey%22%3A%22sk_test_dBr3dyBsAID5W5ShCygoC1rXdKhLNYi13yoaFtefoS%22%7D; __clerk_db_jwt_w5S-qE7k=dvb_33twt6kqRF6evLBe1cEj5xWKJyo; __refresh_w5S-qE7k=fxwUwob70NITMvU9CnNA; clerk_active_context=sess_33twv4ipGYEKaGSeFCqzkFcNsxx:; __clerk_db_jwt_jZlDxMqd=dvb_33u1kjjmY2enB5ACYPj81zctB4o; __clerk_keys_b0e6d634eacb9a7c=%7B%22claimUrl%22%3A%22https%3A%2F%2Fdashboard.clerk.com%2Fapps%2Fclaim%3Ftoken%3Dvlqx13yqgnxyh4sxm6czuuwjj4p2nkgacatuwva1%22%2C%22publishableKey%22%3A%22pk_test_ZGlzY3JldGUtYW1vZWJhLTU4LmNsZXJrLmFjY291bnRzLmRldiQ%22%2C%22secretKey%22%3A%22sk_test_F9lASPgEganECoi1ScTWuOovNncRWMJfCtwNnjXNHN%22%7D; __client_uat_jZlDxMqd=0; __clerk_db_jwt=dvb_33twt6kqRF6evLBe1cEj5xWKJyo; ajs_anonymous_id=5f39ea56-82f0-4d9b-9b17-89eb4ad25956; _xsrf=2|2b9b410b|d08b868d0a40a88eaa1bc198cb333531|1760222945; __client_uat_w5S-qE7k=1760149903; __client_uat=1760149903; __session_w5S-qE7k=eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18zM3R3SDdzY3hIZVo2emZaRms3Z0ZUSVhpazgiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDEiLCJleHAiOjE3NjAyOTE4OTQsImZ2YSI6WzIzNjUsLTFdLCJpYXQiOjE3NjAyOTE4MzQsImlzcyI6Imh0dHBzOi8vbWVhc3VyZWQtb3JjYS0yMi5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3NjAyOTE4MjQsInNpZCI6InNlc3NfMzN0d3Y0aXBHWUVLYUdTZUZDcXprRmNOc3h4Iiwic3RzIjoiYWN0aXZlIiwic3ViIjoidXNlcl8zM3R3dkFZU1kyYklic1pPRHl3QmU4c3R2aUMiLCJ2IjoyfQ.mvwLlsIA4yplLvWJjGadCq5-WERy93Oy0-93E2AYB6W8Guez-QQRAhL_22C4QNs-9RqZFXtE7cKa6eux8G5rXBbNyT8X86-WIQsIhcz4jnapDiTu3arfnAOtC09JDQBGs8AUvEn-_QYPpOaSOpoEEEjUPFoekZX4zahK2n01YE9qD31CQMQh5OM0Yq_MBxQn49KoRyTFZQDdD32MQFvaWZiP3Z9yy7rzD8NcoaXX76mWtAEPOK3qZxyyp3kiyJ7nbKcIet-zhkdOVSnP5MrWPUYl-Mq9hKCWBAlyaLcCdp01DhGTgAtJbbxAxfGd7XWRxgHD6U1XvCvYyl0KnV9tUQ; __next_hmr_refresh_hash__=59",
-manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
-manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
-manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
-manage-api-quickstart:dev:         "sec-fetch-dest": "document",
-manage-api-quickstart:dev:         "sec-fetch-mode": "navigate",
-manage-api-quickstart:dev:         "sec-fetch-site": "none",
-manage-api-quickstart:dev:         "sec-fetch-user": "?1",
-manage-api-quickstart:dev:         "upgrade-insecure-requests": "1",
-manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
-manage-api-quickstart:dev:       }
-manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 404,
-manage-api-quickstart:dev:       "headers": {}
-manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "40f6e5ea-091e-4bc9-8911-c03463d227d5"
+manage-api-quickstart:dev:     [35mreqId[39m: "95995440-4b1c-48b9-a121-bad34db72a7f"
 manage-api-quickstart:dev:     [35mresponseTime[39m: 1
-manage-ui-quickstart:dev:  GET /health 404 in 45ms
-manage-ui-quickstart:dev:  GET /health 404 in 114ms
-manage-ui-quickstart:dev:  GET /health 404 in 42ms
-manage-api-quickstart:dev: [04:12:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev: [04:47:11] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [04:47:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/compliance-audit-graph",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
-manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
 manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
 manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "origin": "http://localhost:5173",
-manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
-manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
-manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
-manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
-manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
 manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
-manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
-manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:         "user-agent": "node"
 manage-api-quickstart:dev:       }
 manage-api-quickstart:dev:     }
 manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "2a89babb-8f74-482e-a2f9-47ec7aef20ad"
-manage-api-quickstart:dev:     [35mresponseTime[39m: 0
-manage-api-quickstart:dev: [04:12:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreqId[39m: "fd652b2f-80f3-4b00-9321-db26985c2bc2"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 10
+manage-api-quickstart:dev: [04:47:11] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev:     [35magentCount[39m: 5
+manage-api-quickstart:dev: [04:47:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
-manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
 manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
 manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "origin": "http://localhost:5173",
-manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
-manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
-manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
-manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
-manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
 manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
-manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
-manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:         "user-agent": "node"
 manage-api-quickstart:dev:       }
 manage-api-quickstart:dev:     }
 manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "1edd3199-84e9-4174-acf6-ca8405ba6f09"
-manage-api-quickstart:dev:     [35mresponseTime[39m: 0
-manage-ui-quickstart:dev:  GET /health 404 in 44ms
-manage-ui-quickstart:dev:  GET / 404 in 20ms
-manage-ui-quickstart:dev:  GET / 404 in 18ms
-manage-api-quickstart:dev: [04:13:41] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreqId[39m: "7ae89dd9-9365-4b2a-9258-881745ef763e"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
+manage-api-quickstart:dev: [04:47:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/",
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
-manage-api-quickstart:dev:         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
-manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
 manage-api-quickstart:dev:         "connection": "keep-alive",
-manage-api-quickstart:dev:         "cookie": "__clerk_keys_1f8b91c4b8eb5c6b=%7B%22claimUrl%22%3A%22https%3A%2F%2Fdashboard.clerk.com%2Fapps%2Fclaim%3Ftoken%3Dxtgg3rl2nkf2w9vi5088o9s5v5endgvmyj00mwh9%22%2C%22publishableKey%22%3A%22pk_test_bWVhc3VyZWQtb3JjYS0yMi5jbGVyay5hY2NvdW50cy5kZXYk%22%2C%22secretKey%22%3A%22sk_test_dBr3dyBsAID5W5ShCygoC1rXdKhLNYi13yoaFtefoS%22%7D; __clerk_db_jwt_w5S-qE7k=dvb_33twt6kqRF6evLBe1cEj5xWKJyo; __refresh_w5S-qE7k=fxwUwob70NITMvU9CnNA; clerk_active_context=sess_33twv4ipGYEKaGSeFCqzkFcNsxx:; __clerk_db_jwt_jZlDxMqd=dvb_33u1kjjmY2enB5ACYPj81zctB4o; __clerk_keys_b0e6d634eacb9a7c=%7B%22claimUrl%22%3A%22https%3A%2F%2Fdashboard.clerk.com%2Fapps%2Fclaim%3Ftoken%3Dvlqx13yqgnxyh4sxm6czuuwjj4p2nkgacatuwva1%22%2C%22publishableKey%22%3A%22pk_test_ZGlzY3JldGUtYW1vZWJhLTU4LmNsZXJrLmFjY291bnRzLmRldiQ%22%2C%22secretKey%22%3A%22sk_test_F9lASPgEganECoi1ScTWuOovNncRWMJfCtwNnjXNHN%22%7D; __client_uat_jZlDxMqd=0; __clerk_db_jwt=dvb_33twt6kqRF6evLBe1cEj5xWKJyo; ajs_anonymous_id=5f39ea56-82f0-4d9b-9b17-89eb4ad25956; _xsrf=2|2b9b410b|d08b868d0a40a88eaa1bc198cb333531|1760222945; __client_uat_w5S-qE7k=1760149903; __client_uat=1760149903; __session_w5S-qE7k=eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18zM3R3SDdzY3hIZVo2emZaRms3Z0ZUSVhpazgiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDEiLCJleHAiOjE3NjAyOTE4OTQsImZ2YSI6WzIzNjUsLTFdLCJpYXQiOjE3NjAyOTE4MzQsImlzcyI6Imh0dHBzOi8vbWVhc3VyZWQtb3JjYS0yMi5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3NjAyOTE4MjQsInNpZCI6InNlc3NfMzN0d3Y0aXBHWUVLYUdTZUZDcXprRmNOc3h4Iiwic3RzIjoiYWN0aXZlIiwic3ViIjoidXNlcl8zM3R3dkFZU1kyYklic1pPRHl3QmU4c3R2aUMiLCJ2IjoyfQ.mvwLlsIA4yplLvWJjGadCq5-WERy93Oy0-93E2AYB6W8Guez-QQRAhL_22C4QNs-9RqZFXtE7cKa6eux8G5rXBbNyT8X86-WIQsIhcz4jnapDiTu3arfnAOtC09JDQBGs8AUvEn-_QYPpOaSOpoEEEjUPFoekZX4zahK2n01YE9qD31CQMQh5OM0Yq_MBxQn49KoRyTFZQDdD32MQFvaWZiP3Z9yy7rzD8NcoaXX76mWtAEPOK3qZxyyp3kiyJ7nbKcIet-zhkdOVSnP5MrWPUYl-Mq9hKCWBAlyaLcCdp01DhGTgAtJbbxAxfGd7XWRxgHD6U1XvCvYyl0KnV9tUQ; __next_hmr_refresh_hash__=59",
+manage-api-quickstart:dev:         "content-type": "application/json",
 manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
-manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
-manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
-manage-api-quickstart:dev:         "sec-fetch-dest": "document",
-manage-api-quickstart:dev:         "sec-fetch-mode": "navigate",
-manage-api-quickstart:dev:         "sec-fetch-site": "none",
-manage-api-quickstart:dev:         "sec-fetch-user": "?1",
-manage-api-quickstart:dev:         "upgrade-insecure-requests": "1",
-manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
 manage-api-quickstart:dev:       }
 manage-api-quickstart:dev:     }
 manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 404,
+manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "2f7b9e6f-4103-4a8a-904b-74d285216fee"
+manage-api-quickstart:dev:     [35mreqId[39m: "b3723537-550c-4a14-8ce8-2d1ee0290752"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "ed976b6b-5c74-42d5-a350-44bcd6c22eae"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-ui-quickstart:dev:  ✓ Compiled /_not-found in 434ms (562 modules)
+manage-ui-quickstart:dev:  POST /mcp 404 in 616ms
+manage-api-quickstart:dev: [04:47:11] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 37ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 32ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 32ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 16ms
+manage-api-quickstart:dev: [04:47:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "fcb1ee7c-a7f7-4991-bfca-cda9b74d5738"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 713
+manage-api-quickstart:dev: [04:47:12] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "1f86e9ab-a883-4547-9c77-5c752f3e2c37"
 manage-api-quickstart:dev:     [35mresponseTime[39m: 0
-manage-ui-quickstart:dev:  GET /health 404 in 26ms
-manage-ui-quickstart:dev:  GET /health 404 in 26ms
-manage-ui-quickstart:dev:  GET /health 404 in 30ms
-manage-ui-quickstart:dev:  GET /health 404 in 33ms
-manage-ui-quickstart:dev:  GET /health 404 in 21ms
-run-api-quickstart:dev: [04:18:27] [32mINFO[39m (env-key-auth): [36mDevelopment/test environment - no API key provided, using default context[39m
-run-api-quickstart:dev: [04:18:27] [32mINFO[39m (chat): [36mChat route accessed[39m
-run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
-run-api-quickstart:dev:     [35mmethod[39m: "POST"
-run-api-quickstart:dev:     [35mparams[39m: {}
-run-api-quickstart:dev: [04:18:27] [32mINFO[39m (completionsHandler): [36mOpenTelemetry headers: chat[39m
-run-api-quickstart:dev:     [35motelHeaders[39m: {}
-run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
-run-api-quickstart:dev:     [35mmethod[39m: "POST"
-run-api-quickstart:dev: [04:18:27] [31mERROR[39m (completionsHandler): [36mError in chat completions endpoint before streaming[39m
-run-api-quickstart:dev:     [35mstack[39m: "Error: Agent graph not found\n    at createApiError (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@inkeep+agents-core@0.13.0_@opentelemetry+core@2.1.0_@opentelemetry+api@1.9.0__@types+pg@8.15.5/node_modules/@inkeep/agents-core/dist/index.js:3692:10)\n    at Object.handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@inkeep+agents-run-api@0.13.0_@libsql+client@0.15.15_@types+pg@8.15.5_react@19.1.1/node_modules/@inkeep/agents-run-api/dist/index.js:9361:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/validator/validator.js:81:5\n    at async Object.mw [as handler] (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@hono+zod-openapi@1.1.3_hono@4.9.9_zod@4.1.11/node_modules/@hono/zod-openapi/dist/index.js:103:26)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)"
-run-api-quickstart:dev:     error: "Agent graph not found"
-run-api-quickstart:dev: [04:18:51] [32mINFO[39m (env-key-auth): [36mDevelopment/test environment - no API key provided, using default context[39m
-run-api-quickstart:dev: [04:18:51] [32mINFO[39m (chat): [36mChat route accessed[39m
-run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
-run-api-quickstart:dev:     [35mmethod[39m: "POST"
-run-api-quickstart:dev:     [35mparams[39m: {}
-run-api-quickstart:dev: [04:18:51] [32mINFO[39m (completionsHandler): [36mOpenTelemetry headers: chat[39m
-run-api-quickstart:dev:     [35motelHeaders[39m: {}
-run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
-run-api-quickstart:dev:     [35mmethod[39m: "POST"
-run-api-quickstart:dev: [04:18:51] [31mERROR[39m (completionsHandler): [36mError in chat completions endpoint before streaming[39m
-run-api-quickstart:dev:     [35mstack[39m: "Error: Agent graph not found\n    at createApiError (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@inkeep+agents-core@0.13.0_@opentelemetry+core@2.1.0_@opentelemetry+api@1.9.0__@types+pg@8.15.5/node_modules/@inkeep/agents-core/dist/index.js:3692:10)\n    at Object.handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@inkeep+agents-run-api@0.13.0_@libsql+client@0.15.15_@types+pg@8.15.5_react@19.1.1/node_modules/@inkeep/agents-run-api/dist/index.js:9361:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/validator/validator.js:81:5\n    at async Object.mw [as handler] (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@hono+zod-openapi@1.1.3_hono@4.9.9_zod@4.1.11/node_modules/@hono/zod-openapi/dist/index.js:103:26)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)"
-run-api-quickstart:dev:     error: "Agent graph not found"
-manage-ui-quickstart:dev:  GET /health 404 in 35ms
-run-api-quickstart:dev: [04:19:29] [32mINFO[39m (env-key-auth): [36mDevelopment/test environment - no API key provided, using default context[39m
-run-api-quickstart:dev: [04:19:29] [32mINFO[39m (chat): [36mChat route accessed[39m
-run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
-run-api-quickstart:dev:     [35mmethod[39m: "POST"
-run-api-quickstart:dev:     [35mparams[39m: {}
-run-api-quickstart:dev: [04:19:29] [32mINFO[39m (completionsHandler): [36mOpenTelemetry headers: chat[39m
-run-api-quickstart:dev:     [35motelHeaders[39m: {}
-run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
-run-api-quickstart:dev:     [35mmethod[39m: "POST"
-run-api-quickstart:dev: [04:19:29] [31mERROR[39m (completionsHandler): [36mError in chat completions endpoint before streaming[39m
-run-api-quickstart:dev:     [35mstack[39m: "Error: Agent graph not found\n    at createApiError (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@inkeep+agents-core@0.13.0_@opentelemetry+core@2.1.0_@opentelemetry+api@1.9.0__@types+pg@8.15.5/node_modules/@inkeep/agents-core/dist/index.js:3692:10)\n    at Object.handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@inkeep+agents-run-api@0.13.0_@libsql+client@0.15.15_@types+pg@8.15.5_react@19.1.1/node_modules/@inkeep/agents-run-api/dist/index.js:9361:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/validator/validator.js:81:5\n    at async Object.mw [as handler] (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@hono+zod-openapi@1.1.3_hono@4.9.9_zod@4.1.11/node_modules/@hono/zod-openapi/dist/index.js:103:26)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)"
-run-api-quickstart:dev:     error: "Agent graph not found"
-run-api-quickstart:dev: [04:19:51] [32mINFO[39m (env-key-auth): [36mDevelopment/test environment - no API key provided, using default context[39m
-run-api-quickstart:dev: [04:19:51] [32mINFO[39m (chat): [36mChat route accessed[39m
-run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
-run-api-quickstart:dev:     [35mmethod[39m: "POST"
-run-api-quickstart:dev:     [35mparams[39m: {}
-run-api-quickstart:dev: [04:19:51] [32mINFO[39m (completionsHandler): [36mOpenTelemetry headers: chat[39m
-run-api-quickstart:dev:     [35motelHeaders[39m: {}
-run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
-run-api-quickstart:dev:     [35mmethod[39m: "POST"
-run-api-quickstart:dev: [04:19:51] [31mERROR[39m (completionsHandler): [36mError in chat completions endpoint before streaming[39m
-run-api-quickstart:dev:     [35mstack[39m: "Error: Agent graph not found\n    at createApiError (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@inkeep+agents-core@0.13.0_@opentelemetry+core@2.1.0_@opentelemetry+api@1.9.0__@types+pg@8.15.5/node_modules/@inkeep/agents-core/dist/index.js:3692:10)\n    at Object.handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@inkeep+agents-run-api@0.13.0_@libsql+client@0.15.15_@types+pg@8.15.5_react@19.1.1/node_modules/@inkeep/agents-run-api/dist/index.js:9361:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/validator/validator.js:81:5\n    at async Object.mw [as handler] (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/@hono+zod-openapi@1.1.3_hono@4.9.9_zod@4.1.11/node_modules/@hono/zod-openapi/dist/index.js:103:26)\n    at async dispatch (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)"
-run-api-quickstart:dev:     error: "Agent graph not found"
-manage-ui-quickstart:dev:  GET /health 404 in 36ms
+manage-api-quickstart:dev: [04:47:12] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "dfd8f5cb-fa07-449c-af78-d4c0c2a745f1"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:47:12] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [04:47:12] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/compliance-audit-graph",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "150db373-2925-44e3-9bcf-9200b962067f"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 7
+manage-api-quickstart:dev: [04:47:12] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "8cb43698-1e13-482d-b2c1-cf099937686b"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:12] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "0f0e25c1-cbb9-4b9a-aac4-f2e65385b73d"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:12] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "1bf86fd8-0ec8-4477-aedc-f15e8e031f81"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
+manage-api-quickstart:dev: [04:47:12] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev:     [35magentCount[39m: 5
+manage-ui-quickstart:dev:  POST /mcp 404 in 43ms
+manage-api-quickstart:dev: [04:47:12] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 50ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 36ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 31ms
+manage-api-quickstart:dev: [04:47:12] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "ff8525aa-0a6e-49fc-87e8-96662c3a5595"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 137
+manage-ui-quickstart:dev:  POST /mcp 404 in 15ms
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "39396b27-4860-42e3-9602-6179f1dc38c9"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "2160aabb-11a1-4cf4-bcc6-71aa8fe1b7b9"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "9df209e4-084d-472f-aa33-eadb63169eae"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/compliance-audit-graph",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "d21e477f-f64f-415b-b4b7-d42a5ab6599a"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 6
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "b4af36ae-15be-4369-b4b0-c3e5a6cc7ea6"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "26bd962d-f34d-4671-8e71-8eefea367a7e"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev:     [35magentCount[39m: 5
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/compliance-audit-graph",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "2cfb39b7-fb41-43af-8991-1d0ef8a0b016"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 5
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev:     [35magentCount[39m: 5
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "cfd0bdad-4dc2-4b6a-ad4a-2a8428129912"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "021e5390-f33c-4935-8d9c-a1ff770983b8"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "2e71f3f9-5546-4593-a28f-df308e96d10f"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-ui-quickstart:dev:  POST /mcp 404 in 39ms
+manage-api-quickstart:dev: [04:47:17] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 35ms
+manage-api-quickstart:dev: [04:47:17] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 59ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 60ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 58ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 58ms
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "12409cef-155b-4c4f-a4bb-3bb2fb806fd5"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 169
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 56ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 56ms
+manage-api-quickstart:dev: [04:47:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "404f9de8-257b-4e15-aff3-67e91c93908d"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 160
+manage-ui-quickstart:dev:  POST /mcp 404 in 28ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 29ms
+manage-api-quickstart:dev: [04:47:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "48677e39-aeb2-4cad-8bd0-d94cde6ffc3f"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/governance-graph-advanced",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "402ab6c3-8668-48ff-a1e8-0faf8c942851"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 7
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev:     [35magentCount[39m: 6
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "fa8bb240-03c1-4a61-bcb3-585594b49cfa"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "de5ec8d2-9288-4548-a658-dbb7c4986a52"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "6d28676e-8111-4520-8bb6-51b6fb27ec57"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-ui-quickstart:dev:  POST /mcp 404 in 18ms
+manage-api-quickstart:dev: [04:47:26] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 31ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 31ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 32ms
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "404ee741-3146-4bae-afe3-97af71494357"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 90
+manage-ui-quickstart:dev:  POST /mcp 404 in 24ms
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "d458c837-0703-49fa-8cec-0b7cbd701990"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "d96ed4fb-0428-4f62-ab8f-bbdb41a574ad"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/governance-graph-advanced",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "3b101e6b-62ae-4569-aa44-ec231c2f08a6"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 7
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "0e0d8190-982e-45b2-a9a0-1a1e3d296758"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "c727c883-e571-48c2-88f6-906f3c5df8db"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "b2aea42d-090e-4e89-a213-68ed75365cfd"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev:     [35magentCount[39m: 6
+manage-ui-quickstart:dev:  POST /mcp 404 in 17ms
+manage-api-quickstart:dev: [04:47:26] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 43ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 37ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 34ms
+manage-api-quickstart:dev: [04:47:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "661fe01e-c5fa-4a80-908f-a381175432d4"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 99
+manage-ui-quickstart:dev:  POST /mcp 404 in 17ms
+manage-api-quickstart:dev: [04:47:31] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "0c278a03-d53d-45c7-8ca5-67b423783f75"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/governance-graph-basic",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "41057163-7653-4757-89fe-e2977db696ef"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 4
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev:     [35magentCount[39m: 4
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "4eba6a2f-4be1-481b-927f-81a07e4eeeb2"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "216b0824-c318-405f-9c69-67ccf0b64283"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "ab9e6e0f-26e6-4766-8689-f8e733bb5827"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-ui-quickstart:dev:  POST /mcp 404 in 19ms
+manage-api-quickstart:dev: [04:47:33] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 32ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 31ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 30ms
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "54cbc0d7-59e6-4a95-8560-f2cdaf7380a9"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 90
+manage-ui-quickstart:dev:  POST /mcp 404 in 16ms
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "467e4daa-8651-4716-a0db-568a9a1ddcbe"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "745fb5ea-c403-4a87-a694-2c08a94059ac"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/governance-graph-basic",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "11acaf8e-f3e0-4871-a10f-7f346d07279f"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 4
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "3d6e43b4-18bd-4a11-a754-04b938b3799a"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "f74fe28d-6665-4790-8074-8912990b5d33"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "fa9691af-b9f0-46d3-abe8-2f6e13ef8468"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev:     [35magentCount[39m: 4
+manage-ui-quickstart:dev:  POST /mcp 404 in 20ms
+manage-api-quickstart:dev: [04:47:33] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 54ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 32ms
+manage-api-quickstart:dev: [04:47:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "5f62a6ca-22fa-4cb5-adc5-cf1232f06997"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 113
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 33ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 18ms
+manage-api-quickstart:dev: [04:47:35] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "d74c8706-e711-4440-9066-b37ceebea85d"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:54] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "3598df08-8944-43b4-9074-1289eec43ea9"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:47:54] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/api-keys",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "152ea9cf-5f4e-4d8a-8cc2-025b32afa2db"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:48:06] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/health/projects",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "ae3948a7-a739-481e-81be-b638851f140c"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-ui-quickstart:dev:  POST /mcp 404 in 20ms
+manage-api-quickstart:dev: [04:48:06] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 43ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 42ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 41ms
+manage-api-quickstart:dev: [04:48:06] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "37cf322a-26a6-4bb5-bb59-92505462d216"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 117
+manage-ui-quickstart:dev:  POST /mcp 404 in 20ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 24ms
+manage-api-quickstart:dev: [04:48:11] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 45ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 66ms
+manage-api-quickstart:dev: [04:48:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools/ethoslens-governance",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "c4e7f466-a520-44da-a447-c24d60284f4b"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 140
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 64ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 23ms
+manage-api-quickstart:dev: [04:48:18] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "13cc7647-54b8-4202-a0ee-7000f3c00b64"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 3
+manage-api-quickstart:dev: [04:48:20] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "2444c69b-577d-4cae-86bb-171d65d2fefc"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 3
+manage-ui-quickstart:dev:  POST /mcp 404 in 22ms
+manage-api-quickstart:dev: [04:48:23] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 34ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 33ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 34ms
+manage-api-quickstart:dev: [04:48:23] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "230d1290-e51d-4d2c-b8a2-83588a288adb"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 100
+manage-ui-quickstart:dev:  POST /mcp 404 in 27ms
+manage-api-quickstart:dev: [04:48:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/api-keys",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "645a4f86-a38f-4e57-920b-b31d51f29c37"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:48:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "7d227bfd-94d8-497f-8d92-cc825f600730"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:48:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "f40c0bd7-9b19-4f29-be4c-eea587910160"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:48:25] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [04:48:25] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/governance-graph-advanced",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "45f959f9-05b2-42a3-a777-fea01936a0d0"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 16
+manage-api-quickstart:dev: [04:48:25] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev:     [35magentCount[39m: 6
+manage-api-quickstart:dev: [04:48:25] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "57ba1961-1ef8-4b6c-821b-b645e9ee425a"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:48:25] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "313667e6-f396-413c-80ce-ebdeffa5c153"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:48:25] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "f77a59c4-7e83-43ac-9f1c-b4b6bad314a7"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-ui-quickstart:dev:  POST /mcp 404 in 15ms
+manage-api-quickstart:dev: [04:48:25] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 31ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 31ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 32ms
+manage-api-quickstart:dev: [04:48:25] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "ee1c1fc4-d0e0-4b94-8521-8c0d8c5cd166"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 80
+manage-ui-quickstart:dev:  POST /mcp 404 in 17ms
+manage-api-quickstart:dev: [04:48:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "e6b2b391-18f5-45fe-9e16-e62d2d99cb69"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:48:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "7de50390-1f48-4fe3-ad1d-79d28f75b388"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:48:26] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [04:48:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/governance-graph-advanced",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "63d34a0f-62ac-4e2e-8971-ddfd29791126"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 12
+manage-api-quickstart:dev: [04:48:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "bce28c56-d604-42f0-983a-10cdf27e9966"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:48:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "dc91a3d0-85b4-46d2-8bf9-beeb72e9a552"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:48:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "95af7cb1-592e-49e4-8369-2fda036d5ea7"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
+manage-api-quickstart:dev: [04:48:26] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev:     [35magentCount[39m: 6
+manage-ui-quickstart:dev:  POST /mcp 404 in 21ms
+manage-api-quickstart:dev: [04:48:26] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 32ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 33ms
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 32ms
+manage-api-quickstart:dev: [04:48:26] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "7913d224-a674-40c5-9382-a4d7784aa5b9"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 89
+manage-ui-quickstart:dev:  POST /mcp 404 in 15ms
+manage-api-quickstart:dev: [04:49:05] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [04:49:05] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/governance-graph-advanced",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "47bc999c-4a0b-42d5-b321-0c6a9be651a6"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 5
+manage-api-quickstart:dev: [04:49:05] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev:     [35magentCount[39m: 6
+manage-api-quickstart:dev: [04:49:05] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "b074d867-8618-44e0-b7e0-1252f9dbdda4"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:49:05] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "a7971bee-7ed3-4e8d-9be4-2b3d3c05fcaf"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:49:05] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "fb159c32-2640-4fe3-b833-e959d123e06a"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-ui-quickstart:dev:  POST /mcp 404 in 19ms
+manage-api-quickstart:dev: [04:49:05] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 30ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 54ms
+manage-api-quickstart:dev: [04:49:05] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "128bab41-9da0-415d-aeeb-01c2218d08e9"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 125
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 46ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 17ms
+manage-api-quickstart:dev: [04:49:06] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/health/projects",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "d6f87100-cf37-486b-87a0-ba286b1c1fd6"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
