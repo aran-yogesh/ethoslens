@@ -9,6 +9,7 @@ import AuditLogs from './pages/AuditLogs';
 import Violations from './pages/Violations';
 import Agents from './pages/Agents';
 import Settings from './pages/Settings';
+import Health from './pages/Health';
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -27,6 +28,8 @@ function App() {
         return <Agents />;
       case 'settings':
         return <Settings />;
+      case 'health':
+        return <Health />;
       default:
         return <Dashboard />;
     }

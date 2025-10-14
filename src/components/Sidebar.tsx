@@ -22,6 +22,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange }) => {
     { id: 'logs', icon: FileText, label: 'Audit Logs' },
     { id: 'violations', icon: AlertTriangle, label: 'Violations' },
     { id: 'agents', icon: Users, label: 'Agents' },
+    { id: 'health', icon: Activity, label: 'Health' },
     { id: 'settings', icon: Settings, label: 'Settings' }
   ];
 

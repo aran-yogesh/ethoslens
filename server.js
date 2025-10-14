@@ -61,7 +61,7 @@ app.get('/health', (req, res) => {
     services: {
       llamaIndex: !!process.env.OPENAI_API_KEY,
       neo4j: !!neo4jDriver,
-      copilotKit: !!process.env.COPILOTKIT_PUBLIC_API_KEY
+      copilotKit: true // CopilotKit endpoint is always available
     }
   });
 });

@@ -565,15 +565,20 @@ export class PolicyEnforcerAgent {
   // Enhanced legacy detection methods
   private detectIllegalActivities(input: string, output: string): Violation | null {
     const illegalPatterns = [
-      { pattern: /hack\s+into|hacking\s+into|break\s+into.*wifi|crack.*password|bypass.*security/i, type: 'cybercrime' },
+      // WiFi hacking patterns (MUST BE FIRST for priority matching)
+      { pattern: /hack\s+into\s+someone.*wi[-\s]?fi|hack\s+into.*wi[-\s]?fi/i, type: 'wifi_hacking' },
+      { pattern: /break\s+into.*wi[-\s]?fi.*without.*knowing/i, type: 'wifi_hacking' },
+      { pattern: /crack.*wi[-\s]?fi.*password|bypass.*wi[-\s]?fi.*security/i, type: 'wifi_hacking' },
+      { pattern: /steal.*wi[-\s]?fi.*password|unauthorized.*wi[-\s]?fi.*access/i, type: 'wifi_hacking' },
+      { pattern: /how\s+(do|can|to)\s+i.*hack.*wi[-\s]?fi/i, type: 'wifi_hacking' },
+      // General hacking patterns
+      { pattern: /hack\s+into|hacking\s+into|break\s+into|crack.*password|bypass.*security/i, type: 'cybercrime' },
       { pattern: /ddos|denial\s+of\s+service|botnet|malware|ransomware/i, type: 'cybercrime' },
       { pattern: /how\s+to\s+make.*drugs|synthesize.*cocaine|manufacture.*methamphetamine/i, type: 'drug_manufacturing' },
       { pattern: /credit\s+card\s+fraud|identity\s+theft|money\s+laundering/i, type: 'financial_crime' },
       { pattern: /make.*bomb|build.*explosive|create.*weapon/i, type: 'weapons' },
       { pattern: /human\s+trafficking|sex\s+trafficking|forced\s+labor/i, type: 'trafficking' },
-      // Enhanced hacking and privacy violation patterns
-      { pattern: /hack\s+into\s+someone.*wifi|break\s+into.*wifi.*without.*knowing|crack.*wifi.*password/i, type: 'wifi_hacking' },
-      { pattern: /bypass.*wifi.*security|steal.*wifi.*password|unauthorized.*wifi.*access/i, type: 'wifi_hacking' },
+      // Social media and privacy violations
       { pattern: /hack.*social\s+media|break\s+into.*facebook|instagram.*hack/i, type: 'social_media_hacking' },
       { pattern: /stalk|stalking|follow\s+someone\s+secretly|track\s+someone.*location/i, type: 'stalking' },
       { pattern: /spy\s+on|surveillance.*without.*consent|monitor.*secretly/i, type: 'unauthorized_surveillance' }
