@@ -4,8 +4,10 @@ class InkeepAgentsService {
   static instance;
 
   constructor() {
-    this.baseUrl = process.env.VITE_INKEEP_AGENTS_URL || 'http://localhost:3003';
-    this.isEnabled = process.env.VITE_USE_INKEEP_AGENTS === 'true';
+    // Use non-VITE prefixed vars for Node.js backend
+    this.baseUrl = process.env.INKEEP_AGENTS_URL || process.env.VITE_INKEEP_AGENTS_URL || 'http://localhost:3003';
+    this.isEnabled = process.env.USE_INKEEP_AGENTS === 'true' || process.env.VITE_USE_INKEEP_AGENTS === 'true';
+    console.log(`[Inkeep] Constructor: USE_INKEEP_AGENTS="${process.env.USE_INKEEP_AGENTS}", isEnabled=${this.isEnabled}, baseUrl=${this.baseUrl}`);
   }
 
   static getInstance() {
@@ -16,24 +18,44 @@ class InkeepAgentsService {
   }
 
   async isAvailable() {
-    if (!this.isEnabled) return false;
-    const candidates = [
-      `${this.baseUrl}/health`,
-      `${this.baseUrl}/openapi.json`,
-      `${this.baseUrl}/`,
-    ];
-    for (const url of candidates) {
-      try {
-        const res = await fetch(url, { method: 'GET' });
-        // Some dev servers return 404 on root; treat any HTTP response as availability signal
-        if (res.ok || res.status === 404) {
-          return true;
-        }
-      } catch (_) {
-        // try next candidate
-      }
+    if (!this.isEnabled) {
+      console.log('[Inkeep] Not enabled (VITE_USE_INKEEP_AGENTS !== true)');
+      return false;
     }
-    return false;
+    
+    // In Node.js environment, use http/https module instead of fetch
+    const http = await import('http');
+    const https = await import('https');
+    
+    return new Promise((resolve) => {
+      try {
+        const parsedUrl = new URL(this.baseUrl + '/health');
+        const client = parsedUrl.protocol === 'https:' ? https.default : http.default;
+        
+        console.log(`[Inkeep] Checking availability at ${parsedUrl.href}`);
+        
+        const req = client.request(parsedUrl, { method: 'GET', timeout: 5000 }, (res) => {
+          // HTTP 204 (No Content) is the success response
+          const isAvailable = res.statusCode === 204 || (res.statusCode >= 200 && res.statusCode < 300);
+          console.log(`[Inkeep] Health check response: ${res.statusCode}, available: ${isAvailable}`);
+          resolve(isAvailable);
+        });
+        
+        req.on('error', (err) => {
+          console.log(`[Inkeep] Health check error: ${err.message}`);
+          resolve(false);
+        });
+        req.on('timeout', () => {
+          console.log('[Inkeep] Health check timeout');
+          req.destroy();
+          resolve(false);
+        });
+        req.end();
+      } catch (err) {
+        console.log(`[Inkeep] Health check exception: ${err.message}`);
+        resolve(false);
+      }
+    });
   }
 
   async processAdvancedGovernance(input, output, context) {
@@ -97,5 +119,3 @@ class InkeepAgentsService {
 }
 
 export const inkeepAgentsService = InkeepAgentsService.getInstance();
-
-

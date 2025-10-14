@@ -1,71 +1,98 @@
 #!/bin/bash
 
-# EthosLens - Start All Services
-# Simple script to run frontend and backend
+# EthosLens - Start All Services with Real-Time Logs
+# Shows logs in terminal AND saves to files
 
-echo "🚀 Starting EthosLens Services..."
+echo "🚀 Starting EthosLens with Inkeep Agents..."
 echo ""
 
-# Colors for output
+# Colors
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
 YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
+PURPLE='\033[0;35m'
+NC='\033[0m'
 
 # Function to kill process on a port
 kill_port() {
     local port=$1
-    local pid=$(lsof -ti:$port)
+    local pid=$(lsof -ti:$port 2>/dev/null)
     
     if [ ! -z "$pid" ]; then
-        echo -e "${YELLOW}⚠️  Port $port is busy (PID: $pid)${NC}"
-        echo -e "${YELLOW}🔪 Killing process on port $port...${NC}"
+        echo -e "${YELLOW}Port $port is busy, killing process...${NC}"
         kill -9 $pid 2>/dev/null
         sleep 1
-        echo -e "${GREEN}✅ Port $port is now free${NC}"
     fi
 }
 
 # Function to cleanup on exit
 cleanup() {
     echo ""
-    echo "🛑 Shutting down services..."
+    echo "🛑 Shutting down all services..."
     kill $(jobs -p) 2>/dev/null
     exit
 }
 
-# Trap Ctrl+C and cleanup
+# Trap Ctrl+C
 trap cleanup SIGINT SIGTERM
 
-# Check and free ports
+# Check and free all required ports
 echo "🔍 Checking ports..."
 kill_port 4000
 kill_port 5173
+kill_port 3002
+kill_port 3003
+kill_port 3001
 echo ""
 
-# Start Backend (Port 4000)
-echo -e "${BLUE}📡 Starting Backend Server (Port 4000)...${NC}"
-npm run server &
-BACKEND_PID=$!
+# Clean old log files
+rm -f inkeep-logs.txt backend-logs.txt frontend-logs.txt
 
-# Wait a moment for backend to start
+# Start Inkeep Agents Services
+echo -e "${PURPLE}🤖 Starting Inkeep Agents Services...${NC}"
+echo -e "${PURPLE}   Manage API: http://localhost:3002${NC}"
+echo -e "${PURPLE}   Run API: http://localhost:3003${NC}"
+cd my-agent-directory
+pnpm dev:apis 2>&1 | tee ../inkeep-logs.txt &
+cd ..
+echo ""
+
+# Wait for Inkeep to start
+sleep 5
+
+# Start Backend
+echo -e "${BLUE}📡 Starting Backend Server (Port 4000)...${NC}"
+npm run server 2>&1 | tee backend-logs.txt &
+
+# Wait for backend
 sleep 2
 
-# Start Frontend (Port 5173)
+# Start Frontend
 echo -e "${GREEN}🌐 Starting Frontend Server (Port 5173)...${NC}"
-npm run dev &
-FRONTEND_PID=$!
+npm run dev 2>&1 | tee frontend-logs.txt &
+
+# Wait for frontend to start
+sleep 3
 
 echo ""
 echo "✅ All services started!"
 echo ""
-echo "📊 Access the application:"
+echo -e "${GREEN}📊 Access the application:${NC}"
 echo "   Frontend: http://localhost:5173"
 echo "   Backend:  http://localhost:4000"
 echo "   Health:   http://localhost:4000/health"
+echo "   Inkeep Manage API: http://localhost:3002"
+echo "   Inkeep Run API: http://localhost:3003"
 echo ""
-echo "Press Ctrl+C to stop all services"
+echo -e "${YELLOW}📝 Logs are displayed below and saved to:${NC}"
+echo "   inkeep-logs.txt"
+echo "   backend-logs.txt"
+echo "   frontend-logs.txt"
+echo ""
+echo -e "${YELLOW}Press Ctrl+C to stop all services${NC}"
+echo ""
+echo "─────────────────────────────────────────────────"
 echo ""
 
-# Wait for both processes
+# Wait for all background processes
 wait

@@ -2,7 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import neo4j from 'neo4j-driver';
 import { config } from 'dotenv';
-import { governanceService } from './src/services/governanceService.js';
+
+// Load environment variables FIRST before importing services that depend on them
 config();
 
 const app = express();
@@ -11,10 +12,16 @@ const PORT = process.env.PORT || 4000;
 // Initialize LlamaIndex with OpenAI
 let chatEngine = null;
 let neo4jDriver = null;
+let governanceService = null;
 
 // Initialize services
 async function initializeServices() {
   try {
+    // Dynamically import governanceService AFTER dotenv has loaded
+    const module = await import('./src/services/governanceService.js');
+    governanceService = module.governanceService;
+    console.log('✅ Governance service loaded');
+    
     // Initialize OpenAI for LlamaIndex
     if (process.env.OPENAI_API_KEY) {
       // LlamaIndex will automatically use OPENAI_API_KEY from environment
@@ -467,7 +474,7 @@ app.get('/api/interactions', async (req, res) => {
 // Governance configuration endpoints
 app.get('/api/governance/status', async (req, res) => {
   try {
-    const status = governanceService.getStatus();
+    const status = await governanceService.getStatus();
     res.json({
       success: true,
       governance: status,
@@ -488,7 +495,7 @@ app.post('/api/governance/switch', async (req, res) => {
     }
 
     await governanceService.switchAgentType(useInkeep);
-    const status = governanceService.getStatus();
+    const status = await governanceService.getStatus();
     
     res.json({
       success: true,

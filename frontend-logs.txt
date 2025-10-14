@@ -1,0 +1,97 @@
+
+> ethoslens-ai-governance@1.0.0 dev
+> vite
+
+
+  VITE v7.1.7  ready in 132 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+9:05:22 PM [vite] (client) hmr update /src/index.css
+9:05:23 PM [vite] (client) hmr update /src/index.css
+9:05:40 PM [vite] (client) hmr update /src/index.css
+9:05:56 PM [vite] (client) hmr update /src/pages/Health.tsx, /src/index.css
+9:06:15 PM [vite] (client) hmr update /src/pages/Health.tsx, /src/index.css
+9:06:15 PM [vite] Internal server error: /Users/alhinai/Desktop/InKeep/AgenticFour/src/pages/Health.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (301:6)
+
+  299 |           </div>
+  300 |         </motion.div>
+> 301 |       </div>
+      |       ^
+  302 |     </div>
+  303 |   );
+  304 | };
+  Plugin: vite:react-babel
+  File: /Users/alhinai/Desktop/InKeep/AgenticFour/src/pages/Health.tsx:301:6
+  299 |            </div>
+  300 |          </motion.div>
+  301 |        </div>
+      |        ^
+  302 |      </div>
+  303 |    );
+      at constructor (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:6630:19)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:4775:18)
+      at TypeScriptParserMixin.jsxParseElement (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:4782:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:4795:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11085:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11070:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11050:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:9857:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10903:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10908:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10885:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:9795:39
+      at TypeScriptParserMixin.tryParse (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:6938:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:9795:18)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10788:23)
+      at /Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10784:39
+      at TypeScriptParserMixin.allowInAnd (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:12431:16)
+      at TypeScriptParserMixin.parseExpression (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10784:17)
+      at TypeScriptParserMixin.parseStatementContent (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:12904:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:9532:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:12776:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:12756:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:13325:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:13318:10)
+      at TypeScriptParserMixin.parseBlock (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:13306:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:12110:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:12085:10)
+      at TypeScriptParserMixin.parseAsyncArrowFromCallExpression (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11268:10)
+      at TypeScriptParserMixin.parseAsyncArrowFromCallExpression (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:9786:18)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11198:27)
+      at TypeScriptParserMixin.parseSubscript (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11124:19)
+      at TypeScriptParserMixin.parseSubscript (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:9358:18)
+      at TypeScriptParserMixin.parseSubscripts (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11098:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11089:17)
+      at TypeScriptParserMixin.parseUpdate (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11070:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:11050:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:9857:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10903:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10908:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10885:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10835:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:9806:20)
+      at /Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10804:39
+      at TypeScriptParserMixin.allowInAnd (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:12431:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:10804:17)
+      at TypeScriptParserMixin.parseVar (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:13393:91)
+      at TypeScriptParserMixin.parseVarStatement (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:13239:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/alhinai/Desktop/InKeep/AgenticFour/node_modules/@babel/parser/lib/index.js:9498:31)
+9:06:16 PM [vite] (client) hmr update /src/pages/Health.tsx, /src/index.css
+9:07:26 PM [vite] (client) hmr update /src/index.css
+9:07:27 PM [vite] (client) hmr update /src/index.css
+9:08:09 PM [vite] (client) hmr update /src/index.css
+9:09:46 PM [vite] (client) hmr update /src/index.css
+9:10:27 PM [vite] (client) hmr update /src/index.css
+9:11:01 PM [vite] .env changed, restarting server...
+9:11:01 PM [vite] server restarted.
+9:11:02 PM [vite] .env changed, restarting server...
+9:11:02 PM [vite] server restarted.
+9:11:17 PM [vite] (client) hmr update /src/index.css
+9:11:29 PM [vite] (client) hmr update /src/index.css

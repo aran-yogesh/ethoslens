@@ -1,0 +1,342 @@
+
+> inkeep-agents-quickstart@0.1.0 dev:apis /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory
+> turbo dev
+
+turbo 2.5.8
+
+• Packages in scope: manage-api-quickstart, manage-ui-quickstart, run-api-quickstart
+• Running dev in 3 packages
+• Remote caching disabled
+manage-ui-quickstart:dev: cache bypass, force executing 9454d94dabc2df56
+run-api-quickstart:dev: cache bypass, force executing 8fd91e1f46a23a54
+manage-api-quickstart:dev: cache bypass, force executing 1ddb5a5d84a5005c
+manage-ui-quickstart:dev: 
+manage-ui-quickstart:dev: > manage-ui-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/manage-ui
+manage-ui-quickstart:dev: > next dev
+manage-ui-quickstart:dev: 
+run-api-quickstart:dev: 
+run-api-quickstart:dev: > run-api-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/run-api
+run-api-quickstart:dev: > vite
+run-api-quickstart:dev: 
+manage-api-quickstart:dev: 
+manage-api-quickstart:dev: > manage-api-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/manage-api
+manage-api-quickstart:dev: > vite
+manage-api-quickstart:dev: 
+manage-ui-quickstart:dev:  ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+manage-ui-quickstart:dev:  We detected multiple lockfiles and selected the directory of /Users/alhinai/Desktop/InKeep/AgenticFour/package-lock.json as the root directory.
+manage-ui-quickstart:dev:  To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+manage-ui-quickstart:dev:    See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+manage-ui-quickstart:dev:  Detected additional lockfiles: 
+manage-ui-quickstart:dev:    * /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/pnpm-lock.yaml
+manage-ui-quickstart:dev: 
+run-api-quickstart:dev: 
+run-api-quickstart:dev:   VITE v7.1.8  ready in 210 ms
+run-api-quickstart:dev: 
+run-api-quickstart:dev:   ➜  Local:   http://localhost:3003/
+run-api-quickstart:dev:   ➜  Network: use --host to expose
+run-api-quickstart:dev: 
+run-api-quickstart:dev:   [32m➜[0m  [1mManagement API:[0m [36mhttp://localhost:3003[0m
+run-api-quickstart:dev:   [32m➜[0m  [1mOpenAPI documentation:[0m [36mhttp://localhost:3003/openapi.json[0m
+run-api-quickstart:dev: 
+manage-api-quickstart:dev: 
+manage-api-quickstart:dev:   VITE v7.1.8  ready in 209 ms
+manage-api-quickstart:dev: 
+manage-api-quickstart:dev:   ➜  Local:   http://localhost:3002/
+manage-api-quickstart:dev:   ➜  Network: use --host to expose
+manage-api-quickstart:dev: 
+manage-api-quickstart:dev:   [32m➜[0m  [1mManagement API:[0m [36mhttp://localhost:3002[0m
+manage-api-quickstart:dev:   [32m➜[0m  [1mOpenAPI documentation:[0m [36mhttp://localhost:3002/openapi.json[0m
+manage-api-quickstart:dev: 
+manage-ui-quickstart:dev:    ▲ Next.js 15.5.4
+manage-ui-quickstart:dev:    - Local:        http://localhost:3000
+manage-ui-quickstart:dev:    - Network:      http://192.0.0.2:3000
+manage-ui-quickstart:dev: 
+manage-ui-quickstart:dev:  ✓ Starting...
+manage-ui-quickstart:dev:  ✓ Ready in 1255ms
+manage-ui-quickstart:dev:  ✓ Compiled /_not-found in 356ms (562 modules)
+manage-ui-quickstart:dev:  GET /health 404 in 531ms
+manage-ui-quickstart:dev:  GET /health 404 in 24ms
+manage-ui-quickstart:dev:  GET /health 404 in 21ms
+run-api-quickstart:dev: [04:04:25] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+run-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
+run-api-quickstart:dev:     [35mstoreType[39m: "memory"
+run-api-quickstart:dev: [04:04:25] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+run-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
+run-api-quickstart:dev:     [35mstoreType[39m: "memory"
+run-api-quickstart:dev: [04:04:25] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
+run-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
+run-api-quickstart:dev:     [35mstoreType[39m: "keychain"
+run-api-quickstart:dev: [04:04:25] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
+run-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
+run-api-quickstart:dev:     [35mservice[39m: "inkeep-agent-framework-keychain-default"
+manage-ui-quickstart:dev:  GET /health 404 in 150ms
+manage-ui-quickstart:dev:  GET /health 404 in 22ms
+manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (agents-manage-api): [36mLogger initialized[39m
+manage-api-quickstart:dev:     [35mlogger[39m: []
+manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+manage-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
+manage-api-quickstart:dev:     [35mstoreType[39m: "memory"
+manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+manage-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
+manage-api-quickstart:dev:     [35mstoreType[39m: "memory"
+manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
+manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "origin": "http://localhost:5173",
+manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
+manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
+manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
+manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "a3050113-b71c-409a-944b-83217c1889b0"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
+manage-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
+manage-api-quickstart:dev:     [35mstoreType[39m: "keychain"
+manage-api-quickstart:dev: [04:06:17] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
+manage-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
+manage-api-quickstart:dev:     [35mservice[39m: "inkeep-agent-framework-keychain-default"
+manage-api-quickstart:dev: [04:06:22] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
+manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "origin": "http://localhost:5173",
+manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
+manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
+manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
+manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "d0173113-7938-4822-aa13-fb61e21dcf89"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [04:06:22] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
+manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "origin": "http://localhost:5173",
+manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
+manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
+manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
+manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "98889ae6-554d-4328-84fc-2fc68030988c"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-ui-quickstart:dev:  GET /health 404 in 59ms
+manage-ui-quickstart:dev:  GET /health 404 in 34ms
+manage-ui-quickstart:dev:  GET /health 404 in 38ms
+manage-api-quickstart:dev: [04:09:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
+manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "origin": "http://localhost:5173",
+manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
+manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
+manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
+manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "d00a1231-d1dd-4c29-8921-1e986f5d9960"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:09:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
+manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "origin": "http://localhost:5173",
+manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
+manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
+manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
+manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "50c67f7c-678e-4d5b-9e79-3a326c6371d7"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:09:17] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
+manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "cookie": "__clerk_keys_1f8b91c4b8eb5c6b=%7B%22claimUrl%22%3A%22https%3A%2F%2Fdashboard.clerk.com%2Fapps%2Fclaim%3Ftoken%3Dxtgg3rl2nkf2w9vi5088o9s5v5endgvmyj00mwh9%22%2C%22publishableKey%22%3A%22pk_test_bWVhc3VyZWQtb3JjYS0yMi5jbGVyay5hY2NvdW50cy5kZXYk%22%2C%22secretKey%22%3A%22sk_test_dBr3dyBsAID5W5ShCygoC1rXdKhLNYi13yoaFtefoS%22%7D; __clerk_db_jwt_w5S-qE7k=dvb_33twt6kqRF6evLBe1cEj5xWKJyo; __refresh_w5S-qE7k=fxwUwob70NITMvU9CnNA; clerk_active_context=sess_33twv4ipGYEKaGSeFCqzkFcNsxx:; __clerk_db_jwt_jZlDxMqd=dvb_33u1kjjmY2enB5ACYPj81zctB4o; __clerk_keys_b0e6d634eacb9a7c=%7B%22claimUrl%22%3A%22https%3A%2F%2Fdashboard.clerk.com%2Fapps%2Fclaim%3Ftoken%3Dvlqx13yqgnxyh4sxm6czuuwjj4p2nkgacatuwva1%22%2C%22publishableKey%22%3A%22pk_test_ZGlzY3JldGUtYW1vZWJhLTU4LmNsZXJrLmFjY291bnRzLmRldiQ%22%2C%22secretKey%22%3A%22sk_test_F9lASPgEganECoi1ScTWuOovNncRWMJfCtwNnjXNHN%22%7D; __client_uat_jZlDxMqd=0; __clerk_db_jwt=dvb_33twt6kqRF6evLBe1cEj5xWKJyo; ajs_anonymous_id=5f39ea56-82f0-4d9b-9b17-89eb4ad25956; _xsrf=2|2b9b410b|d08b868d0a40a88eaa1bc198cb333531|1760222945; __client_uat_w5S-qE7k=1760149903; __client_uat=1760149903; __session_w5S-qE7k=eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18zM3R3SDdzY3hIZVo2emZaRms3Z0ZUSVhpazgiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDEiLCJleHAiOjE3NjAyOTE4OTQsImZ2YSI6WzIzNjUsLTFdLCJpYXQiOjE3NjAyOTE4MzQsImlzcyI6Imh0dHBzOi8vbWVhc3VyZWQtb3JjYS0yMi5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3NjAyOTE4MjQsInNpZCI6InNlc3NfMzN0d3Y0aXBHWUVLYUdTZUZDcXprRmNOc3h4Iiwic3RzIjoiYWN0aXZlIiwic3ViIjoidXNlcl8zM3R3dkFZU1kyYklic1pPRHl3QmU4c3R2aUMiLCJ2IjoyfQ.mvwLlsIA4yplLvWJjGadCq5-WERy93Oy0-93E2AYB6W8Guez-QQRAhL_22C4QNs-9RqZFXtE7cKa6eux8G5rXBbNyT8X86-WIQsIhcz4jnapDiTu3arfnAOtC09JDQBGs8AUvEn-_QYPpOaSOpoEEEjUPFoekZX4zahK2n01YE9qD31CQMQh5OM0Yq_MBxQn49KoRyTFZQDdD32MQFvaWZiP3Z9yy7rzD8NcoaXX76mWtAEPOK3qZxyyp3kiyJ7nbKcIet-zhkdOVSnP5MrWPUYl-Mq9hKCWBAlyaLcCdp01DhGTgAtJbbxAxfGd7XWRxgHD6U1XvCvYyl0KnV9tUQ; __next_hmr_refresh_hash__=59",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
+manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
+manage-api-quickstart:dev:         "sec-fetch-dest": "document",
+manage-api-quickstart:dev:         "sec-fetch-mode": "navigate",
+manage-api-quickstart:dev:         "sec-fetch-site": "none",
+manage-api-quickstart:dev:         "sec-fetch-user": "?1",
+manage-api-quickstart:dev:         "upgrade-insecure-requests": "1",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 404,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "40f6e5ea-091e-4bc9-8911-c03463d227d5"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-ui-quickstart:dev:  GET /health 404 in 45ms
+manage-ui-quickstart:dev:  GET /health 404 in 114ms
+manage-ui-quickstart:dev:  GET /health 404 in 42ms
+manage-api-quickstart:dev: [04:12:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
+manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "origin": "http://localhost:5173",
+manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
+manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
+manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
+manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "2a89babb-8f74-482e-a2f9-47ec7aef20ad"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [04:12:33] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/health",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
+manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "origin": "http://localhost:5173",
+manage-api-quickstart:dev:         "referer": "http://localhost:5173/",
+manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
+manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
+manage-api-quickstart:dev:         "sec-fetch-dest": "empty",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "sec-fetch-site": "same-site",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 204,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "1edd3199-84e9-4174-acf6-ca8405ba6f09"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-ui-quickstart:dev:  GET /health 404 in 44ms
+manage-ui-quickstart:dev:  GET / 404 in 20ms
+manage-ui-quickstart:dev:  GET / 404 in 18ms
+manage-api-quickstart:dev: [04:13:41] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate, br, zstd",
+manage-api-quickstart:dev:         "accept-language": "en-US,en;q=0.9",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "cookie": "__clerk_keys_1f8b91c4b8eb5c6b=%7B%22claimUrl%22%3A%22https%3A%2F%2Fdashboard.clerk.com%2Fapps%2Fclaim%3Ftoken%3Dxtgg3rl2nkf2w9vi5088o9s5v5endgvmyj00mwh9%22%2C%22publishableKey%22%3A%22pk_test_bWVhc3VyZWQtb3JjYS0yMi5jbGVyay5hY2NvdW50cy5kZXYk%22%2C%22secretKey%22%3A%22sk_test_dBr3dyBsAID5W5ShCygoC1rXdKhLNYi13yoaFtefoS%22%7D; __clerk_db_jwt_w5S-qE7k=dvb_33twt6kqRF6evLBe1cEj5xWKJyo; __refresh_w5S-qE7k=fxwUwob70NITMvU9CnNA; clerk_active_context=sess_33twv4ipGYEKaGSeFCqzkFcNsxx:; __clerk_db_jwt_jZlDxMqd=dvb_33u1kjjmY2enB5ACYPj81zctB4o; __clerk_keys_b0e6d634eacb9a7c=%7B%22claimUrl%22%3A%22https%3A%2F%2Fdashboard.clerk.com%2Fapps%2Fclaim%3Ftoken%3Dvlqx13yqgnxyh4sxm6czuuwjj4p2nkgacatuwva1%22%2C%22publishableKey%22%3A%22pk_test_ZGlzY3JldGUtYW1vZWJhLTU4LmNsZXJrLmFjY291bnRzLmRldiQ%22%2C%22secretKey%22%3A%22sk_test_F9lASPgEganECoi1ScTWuOovNncRWMJfCtwNnjXNHN%22%7D; __client_uat_jZlDxMqd=0; __clerk_db_jwt=dvb_33twt6kqRF6evLBe1cEj5xWKJyo; ajs_anonymous_id=5f39ea56-82f0-4d9b-9b17-89eb4ad25956; _xsrf=2|2b9b410b|d08b868d0a40a88eaa1bc198cb333531|1760222945; __client_uat_w5S-qE7k=1760149903; __client_uat=1760149903; __session_w5S-qE7k=eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18zM3R3SDdzY3hIZVo2emZaRms3Z0ZUSVhpazgiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDEiLCJleHAiOjE3NjAyOTE4OTQsImZ2YSI6WzIzNjUsLTFdLCJpYXQiOjE3NjAyOTE4MzQsImlzcyI6Imh0dHBzOi8vbWVhc3VyZWQtb3JjYS0yMi5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3NjAyOTE4MjQsInNpZCI6InNlc3NfMzN0d3Y0aXBHWUVLYUdTZUZDcXprRmNOc3h4Iiwic3RzIjoiYWN0aXZlIiwic3ViIjoidXNlcl8zM3R3dkFZU1kyYklic1pPRHl3QmU4c3R2aUMiLCJ2IjoyfQ.mvwLlsIA4yplLvWJjGadCq5-WERy93Oy0-93E2AYB6W8Guez-QQRAhL_22C4QNs-9RqZFXtE7cKa6eux8G5rXBbNyT8X86-WIQsIhcz4jnapDiTu3arfnAOtC09JDQBGs8AUvEn-_QYPpOaSOpoEEEjUPFoekZX4zahK2n01YE9qD31CQMQh5OM0Yq_MBxQn49KoRyTFZQDdD32MQFvaWZiP3Z9yy7rzD8NcoaXX76mWtAEPOK3qZxyyp3kiyJ7nbKcIet-zhkdOVSnP5MrWPUYl-Mq9hKCWBAlyaLcCdp01DhGTgAtJbbxAxfGd7XWRxgHD6U1XvCvYyl0KnV9tUQ; __next_hmr_refresh_hash__=59",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-ch-ua": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+manage-api-quickstart:dev:         "sec-ch-ua-mobile": "?0",
+manage-api-quickstart:dev:         "sec-ch-ua-platform": "\"macOS\"",
+manage-api-quickstart:dev:         "sec-fetch-dest": "document",
+manage-api-quickstart:dev:         "sec-fetch-mode": "navigate",
+manage-api-quickstart:dev:         "sec-fetch-site": "none",
+manage-api-quickstart:dev:         "sec-fetch-user": "?1",
+manage-api-quickstart:dev:         "upgrade-insecure-requests": "1",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 404,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "2f7b9e6f-4103-4a8a-904b-74d285216fee"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-ui-quickstart:dev:  GET /health 404 in 26ms

@@ -17,6 +17,8 @@ const Health: React.FC = () => {
   const [services, setServices] = useState<ServiceStatus[]>([
     { name: 'Backend Server', status: 'checking', url: API_CONFIG.BASE_URL, port: '4000' },
     { name: 'Frontend Server', status: 'checking', url: window.location.origin, port: '5173' },
+    { name: 'Inkeep Run API', status: 'checking', url: 'http://localhost:3003', port: '3003' },
+    { name: 'Inkeep Manage API', status: 'checking', url: 'http://localhost:3002', port: '3002' },
     { name: 'CopilotKit API', status: 'checking', url: API_URLS.copilotkit },
     { name: 'Neo4j Database', status: 'checking' },
     { name: 'OpenAI API', status: 'checking' },
@@ -106,6 +108,82 @@ const Health: React.FC = () => {
       details: 'Running (you are here)',
       lastChecked: new Date(),
     });
+
+    // Check Inkeep Run API
+    try {
+      const startTime = Date.now();
+      const response = await fetch('http://localhost:3003/health');
+      const responseTime = Date.now() - startTime;
+      
+      // HTTP 204 (No Content) is success for Inkeep health check
+      if (response.status === 204 || response.ok) {
+        updatedServices.push({
+          name: 'Inkeep Run API',
+          status: 'healthy',
+          url: 'http://localhost:3003',
+          port: '3003',
+          responseTime,
+          details: 'AI Governance agents active',
+          lastChecked: new Date(),
+        });
+      } else {
+        updatedServices.push({
+          name: 'Inkeep Run API',
+          status: 'error',
+          url: 'http://localhost:3003',
+          port: '3003',
+          details: `HTTP ${response.status}`,
+          lastChecked: new Date(),
+        });
+      }
+    } catch (error) {
+      updatedServices.push({
+        name: 'Inkeep Run API',
+        status: 'error',
+        url: 'http://localhost:3003',
+        port: '3003',
+        details: 'Not available',
+        lastChecked: new Date(),
+      });
+    }
+
+    // Check Inkeep Manage API
+    try {
+      const startTime = Date.now();
+      const response = await fetch('http://localhost:3002/health');
+      const responseTime = Date.now() - startTime;
+      
+      // HTTP 204 (No Content) is success
+      if (response.status === 204 || response.ok) {
+        updatedServices.push({
+          name: 'Inkeep Manage API',
+          status: 'healthy',
+          url: 'http://localhost:3002',
+          port: '3002',
+          responseTime,
+          details: 'Management API active',
+          lastChecked: new Date(),
+        });
+      } else {
+        updatedServices.push({
+          name: 'Inkeep Manage API',
+          status: 'error',
+          url: 'http://localhost:3002',
+          port: '3002',
+          details: `HTTP ${response.status}`,
+          lastChecked: new Date(),
+        });
+      }
+    } catch (error) {
+      updatedServices.push({
+        name: 'Inkeep Manage API',
+        status: 'error',
+        url: 'http://localhost:3002',
+        port: '3002',
+        details: 'Not available',
+        lastChecked: new Date(),
+      });
+    }
 
     // Check OpenAI API (indirect check via environment)
     updatedServices.push({

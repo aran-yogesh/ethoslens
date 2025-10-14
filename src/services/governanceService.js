@@ -7,7 +7,9 @@ class GovernanceService {
   inkeepAvailable = false;
 
   constructor() {
-    this.useInkeepAgents = process.env.VITE_USE_INKEEP_AGENTS === 'true';
+    // Default to true (Inkeep Agents) unless explicitly set to false
+    // Check both backend (USE_INKEEP_AGENTS) and frontend (VITE_USE_INKEEP_AGENTS) vars
+    this.useInkeepAgents = process.env.USE_INKEEP_AGENTS !== 'false' && process.env.VITE_USE_INKEEP_AGENTS !== 'false';
     this.#checkInkeepAvailability();
   }
 
@@ -73,7 +75,12 @@ class GovernanceService {
     return interaction;
   }
 
-  getStatus() {
+  async getStatus() {
+    // Re-check availability to ensure it's up to date
+    if (this.useInkeepAgents) {
+      this.inkeepAvailable = await inkeepAgentsService.isAvailable();
+    }
+    
     return {
       usingInkeep: this.useInkeepAgents,
       inkeepAvailable: this.inkeepAvailable,

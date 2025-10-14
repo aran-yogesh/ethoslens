@@ -31,11 +31,21 @@ export class InkeepAgentsService {
     }
 
     try {
+      // Try health endpoint first - returns 204 No Content on success
       const response = await fetch(`${this.baseUrl}/health`, {
-        method: 'GET',
-        timeout: 5000
+        method: 'GET'
       });
-      return response.ok;
+      
+      // HTTP 204 (No Content) is the success response for health check
+      if (response.status === 204 || response.ok) {
+        return true;
+      }
+      
+      // Fallback: try OpenAPI endpoint
+      const apiResponse = await fetch(`${this.baseUrl}/openapi.json`, {
+        method: 'GET'
+      });
+      return apiResponse.ok;
     } catch (error) {
       console.warn('Inkeep agents not available:', error);
       return false;
