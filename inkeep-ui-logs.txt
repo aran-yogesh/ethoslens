@@ -1,5 +1,5 @@
 
-> inkeep-agents-quickstart@0.1.0 dev:ui /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory
+> inkeep-agents-quickstart@0.1.0 dev:ui /Users/aran/Desktop/VIBE/EthosLens/my-agent-directory
 > inkeep dev
 
 
@@ -15,4 +15,4 @@ Press Ctrl+C to stop the server
    - Network:      http://localhost:3000
 
  ✓ Starting...
- ✓ Ready in 138ms
+ ✓ Ready in 414ms

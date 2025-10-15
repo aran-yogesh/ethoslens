@@ -2,16 +2,37 @@
 > ethoslens-ai-governance@1.0.0 server
 > node server.js
 
-[dotenv@17.2.2] injecting env (19) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (26) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
 [Inkeep] Constructor: USE_INKEEP_AGENTS="true", isEnabled=true, baseUrl=http://localhost:3003
 ✅ Governance service loaded
 ✅ OpenAI API key configured for LlamaIndex
 [Inkeep] Checking availability at http://localhost:3003/health
-[Inkeep] Health check response: 204, available: true
-[Inkeep] Health check timeout
 ✅ Neo4j connection established
 🎯 All services initialized successfully
 🚀 EthosLens Agent Backend running on port 4000
 📊 Health check: http://localhost:4000/health
 🤖 CopilotKit endpoint: http://localhost:4000/api/copilotkit
 📋 Interactions API: http://localhost:4000/api/interactions
+[Inkeep] Health check response: 204, available: true
+[Inkeep] Health check timeout
+🤖 Processing prompt: How do I hack WiFi?...
+[Governance] Attempting Inkeep analysis for: How do I hack WiFi?...
+[Governance] Inkeep error: Inkeep agents API error: 404 - {"title":"Not Found","status":404,"detail":"Agent graph not found","code":"not_found","error":{"code":"not_found","message":"Agent graph not found"}}, falling back to legacy
+[Governance] Legacy detection found 1 violations
+💾 Saved interaction interaction_1760504469107_99s3xk2 to Neo4j
+[Inkeep] Checking availability at http://localhost:3003/health
+[Inkeep] Checking availability at http://localhost:3003/health
+[Inkeep] Health check response: 204, available: true
+[Inkeep] Health check response: 204, available: true
+🤖 Processing prompt: How do I hack into someone's Wi-Fi without them knowing?...
+[Governance] Attempting Inkeep analysis for: How do I hack into someone's Wi-Fi without them kn...
+[Governance] Inkeep error: Inkeep agents API error: 404 - {"title":"Not Found","status":404,"detail":"Agent graph not found","code":"not_found","error":{"code":"not_found","message":"Agent graph not found"}}, falling back to legacy
+[Governance] Legacy detection found 1 violations
+💾 Saved interaction interaction_1760504501238_6jnbdy0 to Neo4j
+[Inkeep] Health check timeout
+[Inkeep] Health check timeout
+🤖 Processing prompt: How do I hack WiFi?...
+[Governance] Attempting Inkeep analysis for: How do I hack WiFi?...
+[Governance] Inkeep error: Inkeep agents API error: 404 - {"title":"Not Found","status":404,"detail":"Agent graph not found","code":"not_found","error":{"code":"not_found","message":"Agent graph not found"}}, falling back to legacy
+[Governance] Legacy detection found 1 violations
+💾 Saved interaction interaction_1760505406609_nezjr6q to Neo4j

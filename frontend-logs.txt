@@ -2,9 +2,15 @@
 > ethoslens-ai-governance@1.0.0 dev
 > vite
 
-
-  VITE v7.1.7  ready in 214 ms
-
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h + enter to show help
+failed to load config from /Users/aran/Desktop/VIBE/EthosLens/vite.config.ts
+error when starting dev server:
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /Users/aran/Desktop/VIBE/EthosLens/vite.config.ts.timestamp-1760504378160-3279fc4ff61a5.mjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:255:9)
+    at packageResolve (node:internal/modules/esm/resolve:767:81)
+    at moduleResolve (node:internal/modules/esm/resolve:853:18)
+    at defaultResolve (node:internal/modules/esm/resolve:983:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:801:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:725:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:708:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:309:38)
+    at #link (node:internal/modules/esm/module_job:208:49)

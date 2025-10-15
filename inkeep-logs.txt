@@ -1,5 +1,5 @@
 
-> inkeep-agents-quickstart@0.1.0 dev:apis /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory
+> inkeep-agents-quickstart@0.1.0 dev:apis /Users/aran/Desktop/VIBE/EthosLens/my-agent-directory
 > turbo dev
 
 turbo 2.5.8
@@ -7,75 +7,78 @@ turbo 2.5.8
 • Packages in scope: manage-api-quickstart, manage-ui-quickstart, run-api-quickstart
 • Running dev in 3 packages
 • Remote caching disabled
-run-api-quickstart:dev: cache bypass, force executing 845e0e80ceb509a9
-manage-api-quickstart:dev: cache bypass, force executing 5ea028c00526e9ed
-manage-ui-quickstart:dev: cache bypass, force executing 27d2b27cdf4cc577
-run-api-quickstart:dev: 
-run-api-quickstart:dev: > run-api-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/run-api
-run-api-quickstart:dev: > vite
-run-api-quickstart:dev: 
+manage-ui-quickstart:dev: cache bypass, force executing 3b048f7b3b93bd3f
+run-api-quickstart:dev: cache bypass, force executing bdae1fcf13358048
+manage-api-quickstart:dev: cache bypass, force executing abd6226499ffba12
 manage-api-quickstart:dev: 
-manage-api-quickstart:dev: > manage-api-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/manage-api
+manage-api-quickstart:dev: > manage-api-quickstart@0.1.0 dev /Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/apps/manage-api
 manage-api-quickstart:dev: > vite
 manage-api-quickstart:dev: 
+run-api-quickstart:dev: 
+run-api-quickstart:dev: > run-api-quickstart@0.1.0 dev /Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/apps/run-api
+run-api-quickstart:dev: > vite
+run-api-quickstart:dev: 
 manage-ui-quickstart:dev: 
-manage-ui-quickstart:dev: > manage-ui-quickstart@0.1.0 dev /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/apps/manage-ui
+manage-ui-quickstart:dev: > manage-ui-quickstart@0.1.0 dev /Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/apps/manage-ui
 manage-ui-quickstart:dev: > next dev -p 3001
 manage-ui-quickstart:dev: 
-manage-api-quickstart:dev: 
-manage-api-quickstart:dev:   VITE v7.1.8  ready in 111 ms
-manage-api-quickstart:dev: 
+manage-ui-quickstart:dev:  ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+manage-ui-quickstart:dev:  We detected multiple lockfiles and selected the directory of /Users/aran/package-lock.json as the root directory.
+manage-ui-quickstart:dev:  To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+manage-ui-quickstart:dev:    See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+manage-ui-quickstart:dev:  Detected additional lockfiles: 
+manage-ui-quickstart:dev:    * /Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/pnpm-lock.yaml
+manage-ui-quickstart:dev:    * /Users/aran/Desktop/VIBE/EthosLens/package-lock.json
+manage-ui-quickstart:dev: 
+run-api-quickstart:dev: 9:59:29 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+manage-api-quickstart:dev: 9:59:29 PM [vite] (client) Re-optimizing dependencies because vite config has changed
 run-api-quickstart:dev: 
-run-api-quickstart:dev:   VITE v7.1.8  ready in 119 ms
+run-api-quickstart:dev:   VITE v7.1.8  ready in 384 ms
 run-api-quickstart:dev: 
+manage-api-quickstart:dev: 
+manage-api-quickstart:dev:   VITE v7.1.8  ready in 384 ms
+manage-api-quickstart:dev: 
 run-api-quickstart:dev:   ➜  Local:   http://localhost:3003/
 run-api-quickstart:dev:   ➜  Network: use --host to expose
 manage-api-quickstart:dev:   ➜  Local:   http://localhost:3002/
 manage-api-quickstart:dev:   ➜  Network: use --host to expose
-manage-api-quickstart:dev: 
-manage-api-quickstart:dev:   [32m➜[0m  [1mManagement API:[0m [36mhttp://localhost:3002[0m
-manage-api-quickstart:dev:   [32m➜[0m  [1mOpenAPI documentation:[0m [36mhttp://localhost:3002/openapi.json[0m
-manage-api-quickstart:dev: 
 run-api-quickstart:dev: 
 run-api-quickstart:dev:   [32m➜[0m  [1mManagement API:[0m [36mhttp://localhost:3003[0m
 run-api-quickstart:dev:   [32m➜[0m  [1mOpenAPI documentation:[0m [36mhttp://localhost:3003/openapi.json[0m
 run-api-quickstart:dev: 
-manage-ui-quickstart:dev:  ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
-manage-ui-quickstart:dev:  We detected multiple lockfiles and selected the directory of /Users/alhinai/Desktop/InKeep/AgenticFour/package-lock.json as the root directory.
-manage-ui-quickstart:dev:  To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
-manage-ui-quickstart:dev:    See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
-manage-ui-quickstart:dev:  Detected additional lockfiles: 
-manage-ui-quickstart:dev:    * /Users/alhinai/Desktop/InKeep/AgenticFour/my-agent-directory/pnpm-lock.yaml
-manage-ui-quickstart:dev: 
+manage-api-quickstart:dev: 
+manage-api-quickstart:dev:   [32m➜[0m  [1mManagement API:[0m [36mhttp://localhost:3002[0m
+manage-api-quickstart:dev:   [32m➜[0m  [1mOpenAPI documentation:[0m [36mhttp://localhost:3002/openapi.json[0m
+manage-api-quickstart:dev: 
 manage-ui-quickstart:dev:    ▲ Next.js 15.5.4
 manage-ui-quickstart:dev:    - Local:        http://localhost:3001
-manage-ui-quickstart:dev:    - Network:      http://192.168.0.9:3001
+manage-ui-quickstart:dev:    - Network:      http://192.168.12.24:3001
 manage-ui-quickstart:dev: 
 manage-ui-quickstart:dev:  ✓ Starting...
-manage-ui-quickstart:dev:  ✓ Ready in 1253ms
-run-api-quickstart:dev: [06:01:16] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+manage-ui-quickstart:dev:  ✓ Ready in 2.1s
+run-api-quickstart:dev: [04:59:38] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
 run-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
 run-api-quickstart:dev:     [35mstoreType[39m: "memory"
-run-api-quickstart:dev: [06:01:16] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+run-api-quickstart:dev: [04:59:38] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
 run-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
 run-api-quickstart:dev:     [35mstoreType[39m: "memory"
-run-api-quickstart:dev: [06:01:16] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
+run-api-quickstart:dev: [04:59:38] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
 run-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
 run-api-quickstart:dev:     [35mstoreType[39m: "keychain"
-run-api-quickstart:dev: [06:01:16] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
+run-api-quickstart:dev: [04:59:38] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
 run-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
 run-api-quickstart:dev:     [35mservice[39m: "inkeep-agent-framework-keychain-default"
-manage-api-quickstart:dev: [06:01:43] [32mINFO[39m (agents-manage-api): [36mLogger initialized[39m
+manage-api-quickstart:dev: [05:00:04] [32mINFO[39m (agents-manage-api): [36mLogger initialized[39m
 manage-api-quickstart:dev:     [35mlogger[39m: []
-manage-api-quickstart:dev: [06:01:43] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+manage-api-quickstart:dev: [05:00:04] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
 manage-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
 manage-api-quickstart:dev:     [35mstoreType[39m: "memory"
-manage-api-quickstart:dev: [06:01:43] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
+manage-api-quickstart:dev: [05:00:04] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: memory-default (type: memory)[39m
 manage-api-quickstart:dev:     [35mstoreId[39m: "memory-default"
 manage-api-quickstart:dev:     [35mstoreType[39m: "memory"
-manage-api-quickstart:dev: [06:01:43] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev: [05:00:04] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/tenants/health/projects",
+manage-api-quickstart:dev:       "url": "/tenants/default/projects",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
@@ -92,17 +95,17 @@ manage-api-quickstart:dev:     [35mres[39m: {
 manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "a6115779-4524-4067-a59f-ca0fd7e21047"
-manage-api-quickstart:dev:     [35mresponseTime[39m: 5
-manage-api-quickstart:dev: [06:01:43] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
+manage-api-quickstart:dev:     [35mreqId[39m: "3cdeab8b-1f0b-44bb-8900-f6a0728bc153"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 7
+manage-api-quickstart:dev: [05:00:04] [32mINFO[39m (credential-store-registry): [36mRegistered credential store: keychain-default (type: keychain)[39m
 manage-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
 manage-api-quickstart:dev:     [35mstoreType[39m: "keychain"
-manage-api-quickstart:dev: [06:01:43] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
+manage-api-quickstart:dev: [05:00:04] [32mINFO[39m (KeyChainStore): [36mKeytar initialized successfully[39m
 manage-api-quickstart:dev:     [35mstoreId[39m: "keychain-default"
 manage-api-quickstart:dev:     [35mservice[39m: "inkeep-agent-framework-keychain-default"
-manage-api-quickstart:dev: [06:02:42] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev: [05:00:04] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/tenants/health/projects",
+manage-api-quickstart:dev:       "url": "/tenants/default/projects",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
@@ -119,32 +122,54 @@ manage-api-quickstart:dev:     [35mres[39m: {
 manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "1806b51e-5343-4144-b30d-714959bc1810"
+manage-api-quickstart:dev:     [35mreqId[39m: "f65fccf2-feea-4c08-8c7e-78f5548b6ff6"
 manage-api-quickstart:dev:     [35mresponseTime[39m: 1
-manage-api-quickstart:dev: [06:03:42] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev: [05:00:05] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/tenants/health/projects",
+manage-api-quickstart:dev:       "url": "/health",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
-manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
-manage-api-quickstart:dev:         "accept-language": "*",
-manage-api-quickstart:dev:         "connection": "keep-alive",
-manage-api-quickstart:dev:         "content-type": "application/json",
 manage-api-quickstart:dev:         "host": "localhost:3002",
-manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
-manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:         "user-agent": "curl/8.7.1"
 manage-api-quickstart:dev:       }
 manage-api-quickstart:dev:     }
 manage-api-quickstart:dev:     [35mres[39m: {
-manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "status": 204,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "50c7e59a-ae9e-4e3b-8cf6-f08603d65cb5"
+manage-api-quickstart:dev:     [35mreqId[39m: "56f5b0a6-3af9-4519-8632-12c48ece2b7b"
 manage-api-quickstart:dev:     [35mresponseTime[39m: 1
-manage-api-quickstart:dev: [06:04:42] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-ui-quickstart:dev:  ○ Compiling /_not-found ...
+manage-ui-quickstart:dev:  ✓ Compiled /_not-found in 2.6s (562 modules)
+manage-ui-quickstart:dev:  GET / 404 in 2932ms
+run-api-quickstart:dev: [05:01:09] [32mINFO[39m (env-key-auth): [36mDevelopment/test environment - no API key provided, using default context[39m
+run-api-quickstart:dev: [05:01:09] [32mINFO[39m (chat): [36mChat route accessed[39m
+run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
+run-api-quickstart:dev:     [35mmethod[39m: "POST"
+run-api-quickstart:dev:     [35mparams[39m: {}
+run-api-quickstart:dev: [05:01:09] [32mINFO[39m (completionsHandler): [36mOpenTelemetry headers: chat[39m
+run-api-quickstart:dev:     [35motelHeaders[39m: {}
+run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
+run-api-quickstart:dev:     [35mmethod[39m: "POST"
+run-api-quickstart:dev: [05:01:09] [31mERROR[39m (completionsHandler): [36mError in chat completions endpoint before streaming[39m
+run-api-quickstart:dev:     [35mstack[39m: "Error: Agent graph not found\n    at createApiError (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/@inkeep+agents-core@0.13.0_@opentelemetry+core@2.1.0_@opentelemetry+api@1.9.0__@types+pg@8.15.5/node_modules/@inkeep/agents-core/dist/index.js:3692:10)\n    at Object.handler (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/@inkeep+agents-run-api@0.13.0_@libsql+client@0.15.15_@types+pg@8.15.5_react@19.1.1/node_modules/@inkeep/agents-run-api/dist/index.js:9361:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async dispatch (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)\n    at async dispatch (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/validator/validator.js:81:5\n    at async Object.mw [as handler] (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/@hono+zod-openapi@1.1.3_hono@4.9.9_zod@4.1.11/node_modules/@hono/zod-openapi/dist/index.js:103:26)\n    at async dispatch (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)"
+run-api-quickstart:dev:     error: "Agent graph not found"
+run-api-quickstart:dev: [05:01:41] [32mINFO[39m (env-key-auth): [36mDevelopment/test environment - no API key provided, using default context[39m
+run-api-quickstart:dev: [05:01:41] [32mINFO[39m (chat): [36mChat route accessed[39m
+run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
+run-api-quickstart:dev:     [35mmethod[39m: "POST"
+run-api-quickstart:dev:     [35mparams[39m: {}
+run-api-quickstart:dev: [05:01:41] [32mINFO[39m (completionsHandler): [36mOpenTelemetry headers: chat[39m
+run-api-quickstart:dev:     [35motelHeaders[39m: {}
+run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
+run-api-quickstart:dev:     [35mmethod[39m: "POST"
+run-api-quickstart:dev: [05:01:41] [31mERROR[39m (completionsHandler): [36mError in chat completions endpoint before streaming[39m
+run-api-quickstart:dev:     [35mstack[39m: "Error: Agent graph not found\n    at createApiError (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/@inkeep+agents-core@0.13.0_@opentelemetry+core@2.1.0_@opentelemetry+api@1.9.0__@types+pg@8.15.5/node_modules/@inkeep/agents-core/dist/index.js:3692:10)\n    at Object.handler (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/@inkeep+agents-run-api@0.13.0_@libsql+client@0.15.15_@types+pg@8.15.5_react@19.1.1/node_modules/@inkeep/agents-run-api/dist/index.js:9361:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async dispatch (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)\n    at async dispatch (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/validator/validator.js:81:5\n    at async Object.mw [as handler] (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/@hono+zod-openapi@1.1.3_hono@4.9.9_zod@4.1.11/node_modules/@hono/zod-openapi/dist/index.js:103:26)\n    at async dispatch (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)"
+run-api-quickstart:dev:     error: "Agent graph not found"
+manage-api-quickstart:dev: [05:04:57] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/tenants/health/projects",
+manage-api-quickstart:dev:       "url": "/tenants/default/projects",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
@@ -161,11 +186,586 @@ manage-api-quickstart:dev:     [35mres[39m: {
 manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "4faa725d-5d6d-42f2-9d48-7fde63fa19b8"
+manage-api-quickstart:dev:     [35mreqId[39m: "abf2e1a5-0a9b-44a5-b800-8ef689828f9f"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 17
+manage-ui-quickstart:dev:  GET / 404 in 248ms
+manage-api-quickstart:dev: [05:06:55] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "en-IN,en-GB;q=0.9,en;q=0.8",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "cookie": "username-localhost-8889=\"2|1:0|10:1759962622|23:username-localhost-8889|200:eyJ1c2VybmFtZSI6ICIxMjFmZTI2YWYwOTk0ZDJkYmNmMzUwNjgyMWI5MDM3ZiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|c33447e378c9f26fbcefabd7a0799e5da255a191cec9e75f646920371907f6a9\"; _xsrf=2|e4971d7a|5a6251c2db776c8f227dc6b1bfcd8d09|1759708531; username-localhost-8888=2|1:0|10:1759708531|23:username-localhost-8888|196:eyJ1c2VybmFtZSI6ICI1MTkwMTg1Y2Q3OWM0OTgyYWY4ZTg4OWQyNzI1MmU3NiIsICJuYW1lIjogIkFub255bW91cyBDeWxsZW5lIiwgImRpc3BsYXlfbmFtZSI6ICJBbm9ueW1vdXMgQ3lsbGVuZSIsICJpbml0aWFscyI6ICJBQyIsICJjb2xvciI6IG51bGx9|6befcb5318c76fef7e9642341bd939a9ca4a35cbc06baa0df3965ca223dff85e; ajs_anonymous_id=ceaebfcd-2250-4eb9-aff5-1954b08f754c",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "priority": "u=0, i",
+manage-api-quickstart:dev:         "sec-fetch-dest": "document",
+manage-api-quickstart:dev:         "sec-fetch-mode": "navigate",
+manage-api-quickstart:dev:         "sec-fetch-site": "none",
+manage-api-quickstart:dev:         "upgrade-insecure-requests": "1",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 404,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "a8cd34d1-26ee-45a6-8e2d-4e69d44a2436"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 3
+manage-ui-quickstart:dev:  GET / 404 in 93ms
+manage-api-quickstart:dev: [05:07:52] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "en-IN,en-GB;q=0.9,en;q=0.8",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "cookie": "username-localhost-8889=\"2|1:0|10:1759962622|23:username-localhost-8889|200:eyJ1c2VybmFtZSI6ICIxMjFmZTI2YWYwOTk0ZDJkYmNmMzUwNjgyMWI5MDM3ZiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|c33447e378c9f26fbcefabd7a0799e5da255a191cec9e75f646920371907f6a9\"; _xsrf=2|e4971d7a|5a6251c2db776c8f227dc6b1bfcd8d09|1759708531; username-localhost-8888=2|1:0|10:1759708531|23:username-localhost-8888|196:eyJ1c2VybmFtZSI6ICI1MTkwMTg1Y2Q3OWM0OTgyYWY4ZTg4OWQyNzI1MmU3NiIsICJuYW1lIjogIkFub255bW91cyBDeWxsZW5lIiwgImRpc3BsYXlfbmFtZSI6ICJBbm9ueW1vdXMgQ3lsbGVuZSIsICJpbml0aWFscyI6ICJBQyIsICJjb2xvciI6IG51bGx9|6befcb5318c76fef7e9642341bd939a9ca4a35cbc06baa0df3965ca223dff85e; ajs_anonymous_id=ceaebfcd-2250-4eb9-aff5-1954b08f754c",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "priority": "u=0, i",
+manage-api-quickstart:dev:         "sec-fetch-dest": "document",
+manage-api-quickstart:dev:         "sec-fetch-mode": "navigate",
+manage-api-quickstart:dev:         "sec-fetch-site": "none",
+manage-api-quickstart:dev:         "upgrade-insecure-requests": "1",
+manage-api-quickstart:dev:         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 404,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "12d199ae-7b63-439e-90f9-11c668b94c6f"
 manage-api-quickstart:dev:     [35mresponseTime[39m: 1
-manage-api-quickstart:dev: [06:05:42] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-ui-quickstart:dev:  GET / 404 in 137ms
+manage-ui-quickstart:dev:  GET / 404 in 56ms
+manage-api-quickstart:dev: [05:16:08] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
 manage-api-quickstart:dev:     [35mreq[39m: {
-manage-api-quickstart:dev:       "url": "/tenants/health/projects",
+manage-api-quickstart:dev:       "url": "/tenants",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "user-agent": "curl/8.7.1"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 404,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "37199327-bb12-449f-8e22-2291caf1b7f9"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 5
+manage-api-quickstart:dev: [05:16:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "user-agent": "curl/8.7.1"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "6e9a9acf-78ce-4a87-beff-fb801de907ad"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 19
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mRetrieving full project definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/project-full/ethoslens",
+manage-api-quickstart:dev:       "method": "PUT",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-length": "21123",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 201,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "50b33745-0214-4aa6-b058-adc99da0770a"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 176
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProject not found[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating full project in database[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphCount[39m: 3
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating project metadata[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProject metadata created successfully[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating project tools[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mtoolCount[39m: 1
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating tool in project[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mTool created successfully[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll project tools created successfully[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mtoolCount[39m: 1
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating project graphs[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphCount[39m: 3
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating graph in project[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating graph in project[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating graph in project[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mNo project stopWhen configuration found[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mNo project stopWhen configuration found[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mNo project stopWhen configuration found[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCredentialReferences are project-scoped - skipping credential reference creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mTools are project-scoped - skipping tool creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating agent graph metadata[39m
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCredentialReferences are project-scoped - skipping credential reference creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mTools are project-scoped - skipping tool creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating agent graph metadata[39m
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCredentialReferences are project-scoped - skipping credential reference creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mTools are project-scoped - skipping tool creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCreating agent graph metadata[39m
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent graph metadata created successfully[39m
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mDataComponents are project-scoped - skipping dataComponent creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mArtifactComponents are project-scoped - skipping artifactComponent creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "governance-coordinator"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "policy-enforcer"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "response-generator"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "audit-logger"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent graph metadata created successfully[39m
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mDataComponents are project-scoped - skipping dataComponent creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mArtifactComponents are project-scoped - skipping artifactComponent creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-policy-enforcer"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "content-verifier"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "risk-assessment-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "intelligent-response-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "comprehensive-audit-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent graph metadata created successfully[39m
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mDataComponents are project-scoped - skipping dataComponent creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mArtifactComponents are project-scoped - skipping artifactComponent creation in graph[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-monitor"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "audit-trail-manager"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "feedback-analysis-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing internal agent[39m
+manage-api-quickstart:dev:     [35magentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "governance-coordinator"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "policy-enforcer"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "response-generator"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "audit-logger"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-policy-enforcer"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "content-verifier"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "risk-assessment-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "intelligent-response-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "comprehensive-audit-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-monitor"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "audit-trail-manager"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "feedback-analysis-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mInternal agent processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll internal agents created/updated successfully[39m
+manage-api-quickstart:dev:     [35minternalAgentCount[39m: 4
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll internal agents created/updated successfully[39m
+manage-api-quickstart:dev:     [35minternalAgentCount[39m: 6
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll internal agents created/updated successfully[39m
+manage-api-quickstart:dev:     [35minternalAgentCount[39m: 5
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll external agents created/updated successfully[39m
+manage-api-quickstart:dev:     [35mexternalAgentCount[39m: 0
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "policy-enforcer"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "response-generator"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "audit-logger"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll external agents created/updated successfully[39m
+manage-api-quickstart:dev:     [35mexternalAgentCount[39m: 0
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-policy-enforcer"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "content-verifier"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "intelligent-response-agent"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "comprehensive-audit-agent"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll external agents created/updated successfully[39m
+manage-api-quickstart:dev:     [35mexternalAgentCount[39m: 0
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-monitor"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "audit-trail-manager"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent-tool relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "feedback-analysis-agent"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "policy-enforcer"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "response-generator"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "audit-logger"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-policy-enforcer"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "content-verifier"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "intelligent-response-agent"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "comprehensive-audit-agent"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-monitor"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "audit-trail-manager"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent-tool relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "feedback-analysis-agent"
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent-tool relations created[39m
+manage-api-quickstart:dev:     [35magentToolCount[39m: 4
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent-tool relations created[39m
+manage-api-quickstart:dev:     [35magentToolCount[39m: 6
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent-tool relations created[39m
+manage-api-quickstart:dev:     [35magentToolCount[39m: 5
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent-data component relations created[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent-data component relations created[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent-data component relations created[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent-artifact component relations created[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "policy-enforcer"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "response-generator"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "audit-logger"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent-artifact component relations created[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "advanced-policy-enforcer"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "content-verifier"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "risk-assessment-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "intelligent-response-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "comprehensive-audit-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "risk-assessment-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "advanced-policy-enforcer"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "risk-assessment-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "content-verifier"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent-artifact component relations created[39m
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "compliance-monitor"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "audit-trail-manager"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "feedback-analysis-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "compliance-monitor"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "audit-trail-manager"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProcessing agent delegation relation[39m
+manage-api-quickstart:dev:     [35magentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "feedback-analysis-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "policy-enforcer"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "response-generator"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "audit-logger"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "advanced-policy-enforcer"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "content-verifier"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "risk-assessment-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "intelligent-response-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "advanced-governance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "comprehensive-audit-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "risk-assessment-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "advanced-policy-enforcer"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "risk-assessment-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "content-verifier"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "compliance-monitor"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "audit-trail-manager"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "feedback-analysis-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "compliance-coordinator"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "compliance-monitor"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "audit-trail-manager"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAgent delegation relation processed successfully[39m
+manage-api-quickstart:dev:     [35magentId[39m: "regulatory-reporting-agent"
+manage-api-quickstart:dev:     [35mtargetAgentId[39m: "feedback-analysis-agent"
+manage-api-quickstart:dev:     [35mtype[39m: "delegate"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent relations created[39m
+manage-api-quickstart:dev:     [35magentRelationCount[39m: 3
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent relations created[39m
+manage-api-quickstart:dev:     [35magentRelationCount[39m: 7
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll agent relations created[39m
+manage-api-quickstart:dev:     [35magentRelationCount[39m: 7
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mFull graph created successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mFull graph created successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mFull graph created successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mGraph created successfully in project[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mGraph created successfully in project[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mGraph created successfully in project[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mAll project graphs created successfully[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphCount[39m: 3
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mFull project created successfully[39m
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mRetrieving full project definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mProject metadata retrieved[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mFound graphs for project[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphCount[39m: 3
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mTools retrieved for project[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mtoolCount[39m: 1
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mDataComponents retrieved for project[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mcount[39m: 0
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mArtifactComponents retrieved for project[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mcount[39m: 0
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mContextConfigs retrieved for project[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mcount[39m: 0
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mCredentialReferences retrieved for project[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mcount[39m: 0
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mFull graph definition retrieved[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mFull graph definition retrieved[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mFull graph definition retrieved[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [05:16:36] [32mINFO[39m (projectFull): [36mFull project definition retrieved[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mprojectId[39m: "ethoslens"
+manage-api-quickstart:dev:     [35mgraphCount[39m: 3
+manage-api-quickstart:dev: [05:16:40] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "user-agent": "curl/8.7.1"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "678e8840-de01-4a09-b839-66fc55489229"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
+run-api-quickstart:dev: [05:16:46] [32mINFO[39m (env-key-auth): [36mDevelopment/test environment - no API key provided, using default context[39m
+run-api-quickstart:dev: [05:16:47] [32mINFO[39m (chat): [36mChat route accessed[39m
+run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
+run-api-quickstart:dev:     [35mmethod[39m: "POST"
+run-api-quickstart:dev:     [35mparams[39m: {}
+run-api-quickstart:dev: [05:16:47] [32mINFO[39m (completionsHandler): [36mOpenTelemetry headers: chat[39m
+run-api-quickstart:dev:     [35motelHeaders[39m: {}
+run-api-quickstart:dev:     [35mpath[39m: "/v1/chat/completions"
+run-api-quickstart:dev:     [35mmethod[39m: "POST"
+run-api-quickstart:dev: [05:16:47] [31mERROR[39m (completionsHandler): [36mError in chat completions endpoint before streaming[39m
+run-api-quickstart:dev:     [35mstack[39m: "Error: Agent graph not found\n    at createApiError (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/@inkeep+agents-core@0.13.0_@opentelemetry+core@2.1.0_@opentelemetry+api@1.9.0__@types+pg@8.15.5/node_modules/@inkeep/agents-core/dist/index.js:3692:10)\n    at Object.handler (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/@inkeep+agents-run-api@0.13.0_@libsql+client@0.15.15_@types+pg@8.15.5_react@19.1.1/node_modules/@inkeep/agents-run-api/dist/index.js:9361:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async dispatch (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)\n    at async dispatch (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/validator/validator.js:81:5\n    at async Object.mw [as handler] (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/@hono+zod-openapi@1.1.3_hono@4.9.9_zod@4.1.11/node_modules/@hono/zod-openapi/dist/index.js:103:26)\n    at async dispatch (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/compose.js:22:17)\n    at async handler (file:///Users/aran/Desktop/VIBE/EthosLens/my-agent-directory/node_modules/.pnpm/hono@4.9.9/node_modules/hono/dist/hono-base.js:94:39)"
+run-api-quickstart:dev:     error: "Agent graph not found"
+manage-ui-quickstart:dev:  GET / 404 in 139ms
+manage-ui-quickstart:dev:  GET /tenants 404 in 89ms
+manage-ui-quickstart:dev:  GET /dashboard 404 in 54ms
+manage-ui-quickstart:dev:  GET /projects 404 in 36ms
+manage-api-quickstart:dev: [05:18:18] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
 manage-api-quickstart:dev:       "method": "GET",
 manage-api-quickstart:dev:       "headers": {
 manage-api-quickstart:dev:         "accept": "*/*",
@@ -182,5 +782,575 @@ manage-api-quickstart:dev:     [35mres[39m: {
 manage-api-quickstart:dev:       "status": 200,
 manage-api-quickstart:dev:       "headers": {}
 manage-api-quickstart:dev:     }
-manage-api-quickstart:dev:     [35mreqId[39m: "2c51c633-b8d3-4cfa-9dc8-51cce5d6a4c7"
+manage-api-quickstart:dev:     [35mreqId[39m: "97a1bace-062b-423c-a9f5-9e9e9e44754f"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 9
+manage-api-quickstart:dev: [05:18:29] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "715dc831-e9cf-441f-8019-3c730e79eb4a"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 12
+manage-api-quickstart:dev: [05:18:36] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "8e5ab999-f878-4cf3-90f1-83a7f083c4c2"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 3
+manage-api-quickstart:dev: [05:18:36] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "aa5ca531-401f-4bb1-8b14-a42a071dd08a"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [05:19:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "09c11b8e-97ef-49db-9ea2-1664f42613d9"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 30
+manage-api-quickstart:dev: [05:19:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "3838f2ce-9e04-4603-98fc-78bd4a243daf"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [05:19:11] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/agent-graphs",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "3808cd51-74ab-4cf9-bf2a-26f1eb9d6889"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
+manage-api-quickstart:dev: [05:19:12] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "ae880865-abf5-4686-bd24-56ba5f6bb71e"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 3
+manage-api-quickstart:dev: [05:19:15] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev: [05:19:15] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/compliance-audit-graph",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "6fb47785-b90e-4d38-a443-cf86c4647d49"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 46
+manage-api-quickstart:dev: [05:19:15] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "compliance-audit-graph"
+manage-api-quickstart:dev:     [35magentCount[39m: 5
+manage-api-quickstart:dev: [05:19:15] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "58573039-1122-4d72-9641-94f0156bd53f"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 4
+manage-api-quickstart:dev: [05:19:15] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "13e94f54-0ef4-435c-8a9e-85992faee6ca"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
+manage-api-quickstart:dev: [05:19:15] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "a56dfcbe-a338-4146-a0a7-267d8854d5fc"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 18
+manage-ui-quickstart:dev:  POST /mcp 404 in 115ms
+manage-api-quickstart:dev: [05:19:16] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 204ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 223ms
+manage-api-quickstart:dev: [05:19:16] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "a14f8278-1ad4-4efd-9b48-862ff9f11452"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 652
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 139ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 49ms
+manage-api-quickstart:dev: [05:19:16] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "e86621d5-7cc4-4886-a5fe-44dd59e20d1e"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [05:20:24] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev: [05:20:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/governance-graph-advanced",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "e7072b50-f14b-42bf-bdd0-30a99e6e8fd7"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 29
+manage-api-quickstart:dev: [05:20:24] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-advanced"
+manage-api-quickstart:dev:     [35magentCount[39m: 6
+manage-api-quickstart:dev: [05:20:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "8d0145ce-f428-4809-b11e-8f6d3bb3bbc6"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [05:20:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "714c201e-636e-46c7-8936-e506d8f2955e"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 0
+manage-api-quickstart:dev: [05:20:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "beb77061-7e8d-4c69-a921-e830e1a2818e"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 7
+manage-ui-quickstart:dev:  POST /mcp 404 in 62ms
+manage-api-quickstart:dev: [05:20:24] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 69ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 61ms
+manage-api-quickstart:dev: [05:20:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "50eff871-16b4-49ff-aaac-ea10bed2a8b4"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 222
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 53ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 27ms
+manage-api-quickstart:dev: [05:20:24] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "a9fe6ba1-0564-4835-a417-6b6a60987021"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 1
+manage-api-quickstart:dev: [05:21:07] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/data-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "dd8d31fd-8295-4cf2-a520-1df13ffb1435"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 12
+manage-api-quickstart:dev: [05:21:07] [32mINFO[39m (graphFull): [36mRetrieving full graph definition[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev: [05:21:07] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/graph/governance-graph-basic",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "93100275-c80c-4379-bc1a-891bfe46b493"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 12
+manage-api-quickstart:dev: [05:21:07] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/credentials",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "3260c0a1-accf-4bb7-ba33-3bdf88799249"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
+manage-api-quickstart:dev: [05:21:07] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/artifact-components",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "b3b0eb8b-ecf4-45c9-b1c7-934f703633ce"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 2
+manage-api-quickstart:dev: [05:21:07] [32mINFO[39m (graphFull): [36mFull graph retrieved successfully[39m
+manage-api-quickstart:dev:     [35mtenantId[39m: "default"
+manage-api-quickstart:dev:     [35mgraphId[39m: "governance-graph-basic"
+manage-api-quickstart:dev:     [35magentCount[39m: 4
+manage-ui-quickstart:dev:  POST /mcp 404 in 62ms
+manage-api-quickstart:dev: [05:21:08] [31mERROR[39m (tools): [36mTool discovery failed[39m
+manage-api-quickstart:dev:     [35mtoolId[39m: "ethoslens-governance"
+manage-api-quickstart:dev:     error: {}
+manage-ui-quickstart:dev:  POST /mcp 404 in 52ms
+manage-ui-quickstart:dev:  GET /.well-known/oauth-authorization-server 404 in 59ms
+manage-api-quickstart:dev: [05:21:08] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens/tools",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "bef9e555-2359-460e-b3d8-eba00470fd23"
+manage-api-quickstart:dev:     [35mresponseTime[39m: 204
+manage-ui-quickstart:dev:  GET /.well-known/openid-configuration 404 in 74ms
+manage-ui-quickstart:dev:  POST /mcp 404 in 51ms
+manage-api-quickstart:dev: [05:21:08] [32mINFO[39m (agents-manage-api): [36mRequest completed[39m
+manage-api-quickstart:dev:     [35mreq[39m: {
+manage-api-quickstart:dev:       "url": "/tenants/default/projects/ethoslens",
+manage-api-quickstart:dev:       "method": "GET",
+manage-api-quickstart:dev:       "headers": {
+manage-api-quickstart:dev:         "accept": "*/*",
+manage-api-quickstart:dev:         "accept-encoding": "gzip, deflate",
+manage-api-quickstart:dev:         "accept-language": "*",
+manage-api-quickstart:dev:         "connection": "keep-alive",
+manage-api-quickstart:dev:         "content-type": "application/json",
+manage-api-quickstart:dev:         "host": "localhost:3002",
+manage-api-quickstart:dev:         "sec-fetch-mode": "cors",
+manage-api-quickstart:dev:         "user-agent": "node"
+manage-api-quickstart:dev:       }
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mres[39m: {
+manage-api-quickstart:dev:       "status": 200,
+manage-api-quickstart:dev:       "headers": {}
+manage-api-quickstart:dev:     }
+manage-api-quickstart:dev:     [35mreqId[39m: "e841b52c-ddd9-4e70-9701-5dc3ec213bb9"
 manage-api-quickstart:dev:     [35mresponseTime[39m: 1
